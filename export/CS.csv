@@ -1,0 +1,695 @@
+,School,QS2019,Country,City,Program,Degree,Duration /month,Tuition fee /USD
+0,École Polytechnique,108,France,Palaiseau,Internet of Things - Innovation and Management,Master,24,13320
+1,University of Birmingham,116,United Kingdom,Birmingham,Music - Mixed Composition pathway,M.A.,12,20769
+2,University of Birmingham,116,United Kingdom,Birmingham,"Music - Electroacoustic composition, sonic art pathway",M.A.,12,20769
+3,University of Birmingham,116,United Kingdom,Birmingham,Cyber Security,M.Sc.,12,27496
+4,Aarhus University,123,Denmark,Aarhus,IT Product Development,M.Sc.,24,14985
+5,University of Birmingham,116,United Kingdom,Birmingham,Cyber Security,M.Sc.,12,27496
+6,University of Birmingham,116,United Kingdom,Birmingham,Computer Science,M.Sc.,12,27496
+7,University of Birmingham,116,United Kingdom,Birmingham,Advanced Computer Science,M.Sc.,12,27191
+8,École Polytechnique,108,France,Palaiseau,Cybersecurity - Threats and Defenses,Master,24,16650
+9,Eindhoven University of Technology (TU/e),167,Netherlands,Eindhoven,Care and Cure,M.Sc.,24,17760
+10,University of Helsinki,99,Finland,Helsinki,Life Science Informatics,M.Sc.,24,16650
+11,Utrecht University,74,Netherlands,Utrecht,Computing Science,M.Sc.,24,22089
+12,Aarhus University,123,Denmark,Aarhus,Computer Engineering,M.Sc.,24,14985
+13,University College London,14,United Kingdom,London,Digital Innovation in Built Asset Management,M.Sc.,12,32580
+14,Wageningen University and Research,59,Netherlands,Wageningen,Geo-Information Science,M.Sc.,24,14707
+15,Utrecht University,74,Netherlands,Utrecht,Geographical Information Management and Applications (GIMA),M.Sc.,24,18426
+16,Utrecht University,74,Netherlands,Utrecht,Human Computer Interaction,M.Sc.,24,22089
+17,Utrecht University,74,Netherlands,Utrecht,Business Informatics,M.Sc.,24,22089
+18,Eindhoven University of Technology (TU/e),167,Netherlands,Eindhoven,Human-Technology Interaction,M.Sc.,24,17760
+19,University of Helsinki,99,Finland,Helsinki,Theoretical and Computational Methods,M.Sc.,24,16650
+20,University of Birmingham,116,United Kingdom,Birmingham,Robotics,M.Sc.,12,27203
+21,Leiden University,68,Netherlands,Leiden,Law and Digital Technologies (Advanced),LL.M.,12,19425
+22,Uppsala University,87,Sweden,Uppsala,Computational Science,M.Sc.,24,15635
+23,University of Wisconsin Madison,43,United States,Madison,Signal Processing and Machine Learning - Electrical Engineering,M.Sc.,12,25336
+24,Utrecht University,74,Netherlands,Utrecht,Medical Imaging,M.Sc.,24,22089
+25,Maastricht University,128,Netherlands,Maastricht,Business Intelligence and Smart Services,Master,12,15318
+26,École Polytechnique,108,France,Palaiseau,Data Science for Business,M.Sc.,24,22033
+27,Eindhoven University of Technology (TU/e),167,Netherlands,Eindhoven,Connected World Technologies,M.Sc.,24,17760
+28,Utrecht University,74,Netherlands,Utrecht,Game and Media Technology,M.Sc.,24,22089
+29,Utrecht University,74,Netherlands,Utrecht,Artificial Intelligence,M.Sc.,24,22089
+30,University College London,14,United Kingdom,London,Risk and Disaster Science - Data Science Pathway,M.Sc.,12,29635
+31,Uppsala University,87,Sweden,Uppsala,Language Technology,M.A.,24,12944
+32,Uppsala University,87,Sweden,Uppsala,Information Systems,Master,24,12944
+33,University of Birmingham,116,United Kingdom,Birmingham,Human Computer Interaction,M.Sc.,12,27496
+34,Utrecht University,74,Netherlands,Utrecht,Biofabrication,M.Sc.,24,22089
+35,Wageningen University and Research,59,Netherlands,Wageningen,Bioinformatics,M.Sc.,24,14707
+36,Eindhoven University of Technology (TU/e),167,Netherlands,Eindhoven,Data Science in Engineering,M.Sc.,24,17760
+37,Aarhus University,123,Denmark,Aarhus,Computer Science,M.Sc.,24,14985
+38,University of Helsinki,99,Finland,Helsinki,Geography,M.Sc.,24,14430
+39,Uppsala University,87,Sweden,Uppsala,Computer Science - Sino-Swedish Master - Software Engineering,M.Sc.,24,15635
+40,University of Birmingham,116,United Kingdom,Birmingham,Natural Computation,M.Res.,12,26176
+41,Eindhoven University of Technology (TU/e),167,Netherlands,Eindhoven,Information Security Technology,M.Sc.,24,17760
+42,University of Birmingham,116,United Kingdom,Birmingham,Communications Engineering,M.Sc.,12,26506
+43,University of Helsinki,99,Finland,Helsinki,Data Science,M.Sc.,24,16650
+44,Utrecht University,74,Netherlands,Utrecht,New Media and Digital Culture,M.A.,12,18426
+45,Eindhoven University of Technology (TU/e),167,Netherlands,Eindhoven,Computer Science and Engineering,M.Sc.,24,17760
+46,University of Helsinki,99,Finland,Helsinki,Computer Science,M.Sc.,24,16650
+47,University of Birmingham,116,United Kingdom,Birmingham,Electronic and Computer Engineering,M.Sc.,12,26506
+48,University of Birmingham,116,United Kingdom,Birmingham,Bioinformatics,Master,12,26506
+49,Uppsala University,87,Sweden,Uppsala,Bioinformatics - Biology Background,M.Sc.,24,15635
+50,Uppsala University,87,Sweden,Uppsala,Computer Science,M.Sc.,24,15635
+51,Uppsala University,87,Sweden,Uppsala,Computer Science - Concurrency and Parallel Programming,M.Sc.,24,15635
+52,Uppsala University,87,Sweden,Uppsala,Bioinformatics - Computer Science Background,M.Sc.,24,15635
+53,Uppsala University,87,Sweden,Uppsala,Human - Computer Interaction,Master,24,12944
+54,The University of Exeter,141,United Kingdom,Exeter,Data Science,M.Sc.,12,28962
+55,The University of Western Australia,134,Australia,Perth,Environmental Science - Geographic Information Science and Environmental Management,Master,24,25944
+56,The University of Western Australia,134,Australia,Perth,Information Technology (IT),Master,18,34592
+57,The University of Exeter,141,United Kingdom,Exeter,Data Science with Business,M.Sc.,12,28962
+58,The University of Exeter,141,United Kingdom,Exeter,Computer Science with Business,M.Sc.,12,28962
+59,The University of Western Australia,134,Australia,Perth,Geographic Information Science,Master,24,26622
+60,The University of Western Australia,134,Australia,Perth,Geoscience,Master,24,26622
+61,University of York,119,United Kingdom,York,Cyber Security,M.Sc.,12,25553
+62,Stockholm University,153,Sweden,Stockholm,IT Project Management,M.Sc.,24,14528
+63,Imperial College London,9,United Kingdom,London,Business Analytics,M.Sc.,12,34584
+64,University of Alberta,132,Canada,Edmonton,Computing Science,M.Sc.,24,7924
+65,University College London,14,United Kingdom,London,Computer Science,M.Eng.,48,31724
+66,King's College London,38,United Kingdom,London,Telecommunications and Internet Technology,M.Sc.,12,31162
+67,Delft University of Technology (TU Delft),58,Netherlands,Delft,Computer Simulations for Science and Engineering (COSSE),M.Sc.,24,25530
+68,University of Oslo,121,Norway,Oslo,Data Science,M.Sc.,24,0
+69,Leiden University,68,Netherlands,Leiden,Criminology and Security Policy,M.Sc.,12,19425
+70,University of Florida,156,United States,Gainesville,Computer Science,M.Sc.,24,17394
+71,University of Oxford,1,United Kingdom,Oxford,Social Science of the Internet,M.Sc.,10,31024
+72,McMaster University,77,Canada,Hamilton,Computational Science and Engineering,M.Eng.,16,12651
+73,Arizona State University,123,United States,Mesa,Information Technology,M.Sc.,24,21672
+74,Australian National University,49,Australia,Canberra,Applied Cybernetics,Master,18,3759
+75,Stockholm University,153,Sweden,Stockholm,Computational Physics,M.Sc.,24,15065
+76,Delft University of Technology (TU Delft),58,Netherlands,Delft,Geomatics,M.Sc.,24,16834
+77,Imperial College London,9,United Kingdom,London,Computing (Software Engineering),M.Sc.,12,39105
+78,Leiden University,68,Netherlands,Leiden,Astronomy and Data Science,M.Sc.,24,20313
+79,University of Glasgow,93,United Kingdom,Glasgow,Information Management and Preservation,Postgraduate Diploma,9,14355
+80,Johns Hopkins University,12,United States,Baltimore,Information Systems Engineering,Postgraduate Certificate,36,53740
+81,Carnegie Mellon University,24,United States,Pittsburgh,Software Management,M.Sc.,12,72750
+82,University of Toronto,21,Canada,Toronto,Health Informatics,Master,16,17970
+83,University of Toronto,21,Canada,Toronto,Computer Science,M.Sc.,16,17879
+84,University of New South Wales,96,Australia,Canberra,"Cyber Security, Strategy and Diplomacy",Master,12,25687
+85,The Chinese University of Hong Kong,55,Hong Kong (SAR),Hong Kong,Earth System and GeoInformation Science,M.Phil.,12,5384
+86,University of Oslo,121,Norway,Oslo,"Electrical Engineering, Informatics and Technology",M.Sc.,24,0
+87,University of Southern California,66,United States,Los Angeles,Public Policy Data Science,M.Sc.,24,26724
+88,Uppsala University,87,Sweden,Uppsala,Game Design,M.A.,24,12944
+89,University of Oslo,121,Norway,Oslo,Informatics - Programming and Networks,M.Sc.,24,0
+90,University of Adelaide,135,Australia,Adelaide,Computing and Innovation,Master,24,27096
+91,Imperial College London,9,United Kingdom,London,Computing (Visual Computing and Robotics),M.Sc.,12,39105
+92,University of Queensland,69,Australia,Brisbane,Interaction Design,Master,24,30564
+93,University of Sheffield,106,United Kingdom,Sheffield,Information Systems Management,M.Sc.,12,27618
+94,Technical University of Munich,44,Germany,Garching bei München,Informatics - Games Engineering,M.Sc.,24,286
+95,University of Sheffield,106,United Kingdom,Sheffield,Information Systems Management,M.Sc.,12,27618
+96,The Chinese University of Hong Kong,55,Hong Kong (SAR),Hong Kong,Business Analytics,M.Sc.,12,31967
+97,Leiden University,68,Netherlands,Leiden,Bioinformatics (ism TUD),M.Sc.,24,20313
+98,University of British Columbia,37,Canada,Vancouver,Electrical and Computer Engineering,Master,24,6493
+99,Hong Kong University of Science and Technology,46,Hong Kong (SAR),Hong Kong,Information Technology,M.Sc.,12,17875
+100,University of British Columbia,37,Canada,Vancouver,Data Science,Master,10,32023
+101,"University of California, Santa Cruz",167,United States,Santa Cruz,Games and Playable Media,M.Sc.,12,32852
+102,University of Florida,156,United States,Gainesville,Computer Engineering (Bioinformatics),Master,24,17394
+103,University of Florida,156,United States,Gainesville,Industrial and Systems Engineering (Information Systems Engineering),M.Sc.,24,17394
+104,Queen Mary University of London,130,United Kingdom,London,Computer Science,M.Sc.,12,25968
+105,University of Glasgow,93,United Kingdom,Glasgow,Spatial Planning,Postgraduate Certificate,12,8563
+106,Leiden University,68,Netherlands,Leiden,ICT in Business and the Public Sector,M.Sc.,24,20313
+107,Carnegie Mellon University,24,United States,Pittsburgh,Information Systems Management,M.Sc.,12,49600
+108,The University of Manchester,57,United Kingdom,Manchester,Advanced Computer Science,M.Res.,12,28107
+109,Pennsylvania State University,81,United States,University Park,Computer Science,M.Sc.,24,38466
+110,Rice University,86,United States,Houston,Computational Science and Engineering,Master,24,46600
+111,University of Southern California,66,United States,Los Angeles,Electrical Engineering  (Computer Networks),M.Sc.,24,53448
+112,University of Amsterdam,62,Netherlands,Amsterdam,Software Engineering,M.Sc.,12,24431
+113,McGill University,44,Canada,Québec,Computer Science (Thesis) - Computational Science and Engineering,M.Sc.,24,12690
+114,Carnegie Mellon University,24,United States,Pittsburgh,Computational Design,M.Sc.,24,43000
+115,Imperial College London,9,United Kingdom,London,Computing (Security and Reliability),M.Sc.,12,39105
+116,Cornell University,19,United States,Ithaca,Information Science,Master,12,54584
+117,Arizona State University,123,United States,Mesa,Software Engineering,M.Sc.,24,29560
+118,King's College London,38,United Kingdom,London,Advanced Software Engineering,M.Sc.,12,31162
+119,"University of California, Davis",59,United States,Davis,Health Informatics,M.Sc.,24,43395
+120,Pennsylvania State University,81,United States,University Park,Software Engineering,Master,24,36974
+121,The University of Manchester,57,United Kingdom,Manchester,Computer Science,M.Phil.,12,28107
+122,University of Sheffield,106,United Kingdom,Sheffield,Data Communications,M.Sc.,12,27618
+123,University of Southern California,66,United States,Los Angeles,Computer Science (Specialization in High Performance Computing and Simulation),M.Sc.,24,53448
+124,University of Pittsburgh,110,United States,Pittsburgh,Information Science,M.Sc.,18,40732
+125,University of Groningen,79,Netherlands,Groningen,Information Science,Master,12,13875
+126,University of Florida,156,United States,Gainesville,Computer Engineering,M.Sc.,24,17394
+127,Delft University of Technology (TU Delft),58,Netherlands,Delft,Computer Science,M.Sc.,24,16834
+128,University of Mannheim,123,Germany,Mannheim,Business Informatics,M.Sc.,24,3330
+129,University of Groningen,79,Netherlands,Groningen,Computing Science,M.Sc.,24,16206
+130,University of St Andrews,165,United Kingdom,Saint Andrews,Software Engineering,M.Sc.,12,26873
+131,Queen Mary University of London,130,United Kingdom,London,Business Analytics,M.Sc.,12,28718
+132,University of Glasgow,93,United Kingdom,Glasgow,Information Security,M.Sc.,12,25687
+133,University of Southern California,66,United States,Los Angeles,Data Informatics,M.Sc.,24,53448
+134,University of Illinois at Urbana Champaign,50,United States,Urbana,Computer Science,M.Sc.,24,27412
+135,University of Sheffield,106,United Kingdom,Sheffield,Wireless Communication Systems,M.Eng.,12,27618
+136,Princeton University,7,United States,Princeton,Operations Research and Financial Engineering,Master,24,49450
+137,Kyoto University,65,Japan,Kyoto,International Course in Intelligence Science and Technology,Master,12,77085
+138,Imperial College London,9,United Kingdom,London,Artificial Intelligence,M.Sc.,12,39105
+139,Queen Mary University of London,130,United Kingdom,London,Computational Engineering,M.Sc.,12,25968
+140,The University of Manchester,57,United Kingdom,Manchester,Computer Science with Industrial Experience,M.Eng.,60,28107
+141,"University of California, Los Angeles (UCLA)",17,United States,Beverly Hills,"Engineering - MS in Engineering-Computer Networking, Online",M.Sc.,24,32000
+142,ETH Zurich - Swiss Federal Institute of Technology,11,Switzerland,Zürich,Computer Science,M.Sc.,18,1117
+143,The University of Manchester,57,United Kingdom,Manchester,Advanced Computer Science-Computer Security,M.Sc.,12,28107
+144,University of Warwick,79,United Kingdom,Coventry,Urban Analytics and Visualisation,M.Sc.,12,24771
+145,Indiana University Bloomington,146,United States,Bloomington,Informatics,M.Sc.,24,28936
+146,Emory University,84,United States,Atlanta,Computer Science,M.Sc.,12,40800
+147,Queen Mary University of London,130,United Kingdom,London,Artificial Intelligence with Industrial Experience,M.Sc.,24,25968
+148,University of Copenhagen,116,Denmark,Copenhagen,Computer Science,M.Sc.,24,16406
+149,University of Warwick,79,United Kingdom,Coventry,Data Analytics,M.Sc.,12,31614
+150,University of Southampton,118,United Kingdom,Southampton,Cyber Security Risk Management,M.Sc.,12,24380
+151,Queen Mary University of London,130,United Kingdom,London,Computer Science with Industrial Experience,M.Sc.,24,25968
+152,Tufts University,152,United States,Medford,Data Analytics,M.Sc.,24,51288
+153,Lund University,98,Sweden,Lund,Geographical Information Systems,M.Sc.,24,11941
+154,Tsinghua University,22,China,Beijing,Advanced Computing,M.Sc.,24,5741
+155,Lancaster University,146,United Kingdom,Lancaster,Computer Science,M.Phil.,36,22473
+156,Hong Kong University of Science and Technology,46,Hong Kong (SAR),Hong Kong,Big Data Technology,M.Sc.,12,22982
+157,Lancaster University,146,United Kingdom,Lancaster,Computer Science,M.Sc.,12,25052
+158,University of Zurich,90,Switzerland,Zürich,Computational Biology and Bioinformatics,M.Sc.,18,1159
+159,University of Queensland,69,Australia,Brisbane,Geographic Information Science,Master,18,27800
+160,University College London,14,United Kingdom,London,Countering Organised Crime and Terrorism,M.Sc.,12,32580
+161,Lund University,98,Sweden,Lund,Wireless Communications,M.Sc.,24,14969
+162,Duke University,18,United States,Durham,Electrical and Computer Engineering (with concentration in Computer Engineering),M.Sc.,24,26770
+163,University of Southern California,66,United States,Los Angeles,Computer Science (Specialization in Software Engineering),M.Sc.,24,53448
+164,Ghent University,143,Belgium,Gent,Computer Science Engineering,M.Sc.,24,6132
+165,University of Sheffield,106,United Kingdom,Sheffield,Advanced Software Engineering,M.Sc.,12,27618
+166,McMaster University,77,Canada,Hamilton,Electrical and Computer Engineering,M.Eng.,12,12651
+167,Rutgers University,176,United States,Camden,Nursing Informatics,Master,24,29256
+168,Delft University of Technology (TU Delft),58,Netherlands,Delft,Computer Engineering,M.Sc.,24,16834
+169,University of Oslo,121,Norway,Oslo,Computational Science and Engineering,M.Sc.,24,0
+170,Eindhoven University of Technology (TU/e),167,Netherlands,Eindhoven,Data Science and Entrepreneurship,M.Sc.,24,17760
+171,University of Warwick,79,United Kingdom,Coventry,Communications and Information Engineering,M.Sc.,12,31614
+172,Carnegie Mellon University,24,United States,Pittsburgh,Information Technology Strategy,Master,18,47300
+173,Massachusetts Institute of Technology (MIT),4,United States,Cambridge,MBA/MS in Electrical Engineering and Computer Science,M.Sc.,24,51832
+174,University of California Irvine (UCI),96,United States,Irvine,Computer Science,M.Sc.,24,11442
+175,University of Queensland,69,Australia,Brisbane,Computer Science,Master,18,30564
+176,University College London,14,United Kingdom,London,Advanced Spatial Analysis and Visualisation,M.Res.,12,21080
+177,Arizona State University,123,United States,Tempe Junction,Computer Science (Biomedical Informatics),M.Sc.,24,21672
+178,University of Zurich,90,Switzerland,Zürich,Data Science,M.Sc.,24,1434
+179,Swiss Federal Institute of Technology Lausanne,35,Switzerland,Lausanne,Computer Science,M.Sc.,18,1263
+180,McGill University,44,Canada,Québec,Computer Science (Thesis),M.Sc.,24,12690
+181,Australian National University,49,Australia,Canberra,Business Information Systems,Master,24,30889
+182,University of Nottingham,149,United Kingdom,Nottingham,Machine Learning in Science,M.Sc.,12,26011
+183,"University of California, Santa Cruz",167,United States,Santa Cruz,Computer Engineering,M.Sc.,12,32852
+184,Queen Mary University of London,130,United Kingdom,London,Data Analytics,M.Sc.,12,25968
+185,University of Chicago,10,United States,Chicago,Computer Science,M.Sc.,9,38428
+186,The University of Tokyo,42,Japan,Tokyo,Intelligent Information Processing,Master,24,4965
+187,University of Bristol,78,United Kingdom,Bristol,Communication Networks and Signal Processing,M.Sc.,12,28107
+188,University of Bristol,78,United Kingdom,Bristol,Mathematics of Cybersecurity,M.Sc.,12,28107
+189,Imperial College London,9,United Kingdom,London,Computing (Artificial Intelligence and Machine Learning),M.Sc.,12,39105
+190,Indiana University Bloomington,146,United States,Bloomington,Bioinformatics,M.Sc.,48,28936
+191,University of Nottingham,149,United Kingdom,Nottingham,Computer Science,M.Sc.,12,27881
+192,University of Queensland,69,Australia,Brisbane,Data Science,Master,24,30564
+193,University of Wisconsin Madison,43,United States,Madison,Computer Sciences,M.Sc.,24,25336
+194,Queen Mary University of London,130,United Kingdom,London,Computing and Information Systems (conversion programme),M.Sc.,12,25968
+195,The University of Manchester,57,United Kingdom,Manchester,Computer Science,M.Eng.,48,28107
+196,Emory University,84,United States,Atlanta,Public Health - Biostatistics,M.Sc.,24,39000
+197,Queen Mary University of London,130,United Kingdom,London,Financial Computing (with IE),M.Sc.,24,27068
+198,Maastricht University,128,Netherlands,Maastricht,Data Science for Decision Making,M.Sc.,24,18648
+199,Northwestern University,25,United States,Evanston,Artificial Intelligence,M.Sc.,15,36080
+200,University of St Andrews,165,United Kingdom,Saint Andrews,Human Computer Interaction,M.Sc.,12,26873
+201,Australian National University,49,Australia,Canberra,Machine Learning and Computer Vision,Master,24,32434
+202,University of Amsterdam,62,Netherlands,Amsterdam,Grid Computing - Computer Science,M.Sc.,24,16239
+203,Maastricht University,128,Netherlands,Maastricht,Advanced Master in Intellectual Property Law and Knowledge Management,Master,12,17205
+204,University of Queensland,69,Australia,Brisbane,Computer Science (Management),Master,24,30564
+205,University of Washington,28,United States,Seattle,Computer Science & Engineering,M.Sc.,12,34671
+206,University of Sheffield,106,United Kingdom,Sheffield,Cybersecurity and Artificial Intelligence,M.Sc.,12,27618
+207,Brown University,53,United States,Providence,Computer Science,M.Sc.,24,50224
+208,King's College London,38,United Kingdom,London,Bioinformatics,Master,36,28596
+209,University of Illinois at Urbana Champaign,50,United States,Urbana,Geographic Information Science,M.Sc.,16,27412
+210,University of Illinois at Urbana Champaign,50,United States,Urbana,Financial Engineering,M.Sc.,12,68400
+211,ETH Zurich - Swiss Federal Institute of Technology,11,Switzerland,Zürich,Computational Science and Engineering,M.Sc.,18,1117
+212,University of Sheffield,106,United Kingdom,Sheffield,Applied Geographical Information Systems (GIS),M.Sc.,12,22119
+213,Australian National University,49,Australia,Canberra,Mathematical Sciences (Advanced),Master,24,29588
+214,Ghent University,143,Belgium,Gent,Statistical Data Analysis,M.Sc.,12,1989
+215,"University of California, Santa Barbara",52,United States,Santa Barbara,Electrical & Computer Engineering,M.Sc.,24,27732
+216,University of Sussex,161,United Kingdom,Brighton,Management of Information Technology,M.Sc.,12,25357
+217,Stockholm University,153,Sweden,Stockholm,Design for Creative and Immersive Technology,M.Sc.,24,14528
+218,Duke University,18,United States,Durham,Interdisciplinary Data Science,Master,24,26770
+219,University of Zurich,90,Switzerland,Zürich,Geography - Geographic Information Science,M.Sc.,18,1434
+220,Monash University,84,Australia,Caulfield North,Library and information science,Master,24,28044
+221,University of Oslo,121,Norway,Oslo,"Informatics - Design, Use, Interaction",M.Sc.,24,0
+222,King's College London,38,United Kingdom,London,Digital Humanities,M.A.,12,29256
+223,Maastricht University,128,Netherlands,Maastricht,Artificial Intelligence,M.Sc.,24,18648
+224,University of Sydney,59,Australia,Sydney,Information Technology Management,Master,18,29467
+225,University of Toronto,21,Canada,Toronto,Applied Computing,M.Sc.,16,23944
+226,Arizona State University,123,United States,Tempe Junction,Computer Science (Big Data Systems),M.Sc.,24,21672
+227,Lancaster University,146,United Kingdom,Lancaster,"Information Technology, Management and Organisational Change",M.Sc.,12,22608
+228,Karolinska Institutet,40,Sweden,Stockholm,Joint Master's Programme in Health Informatics,M.Sc.,24,17737
+229,Leiden University,68,Netherlands,Leiden,Digital Media in Human Development,M.Sc.,12,19425
+230,The University of Manchester,57,United Kingdom,Manchester,ICTs for Development,M.Sc.,12,24441
+231,Pennsylvania State University,81,United States,University Park,Information Systems,M.Sc.,24,38466
+232,"University of California, Los Angeles (UCLA)",17,United States,Beverly Hills,Computer Science,M.Sc.,24,32000
+233,University of British Columbia,37,Canada,Vancouver,Dependable Software Systems,Master,24,19724
+234,"University of California, Santa Cruz",167,United States,Santa Cruz,Computer Science,M.Sc.,24,32852
+235,Northwestern University,25,United States,Evanston,Information Technology,M.Sc.,12,50925
+236,University of York,119,United Kingdom,York,Statistics and Computational Finance,M.Sc.,12,27692
+237,University of Nottingham,149,United Kingdom,Nottingham,Electronic Communications and Computer Engineering,M.Sc.,12,27881
+238,University of Glasgow,93,United Kingdom,Glasgow,Bioinformatics,M.Sc.,12,25687
+239,University of Pittsburgh,110,United States,Pittsburgh,Computer Science,M.Sc.,24,38736
+240,Washington University in St. Louis,54,United States,Saint Louis,Computer Science,M.Sc.,12,104800
+241,University of Glasgow,93,United Kingdom,Glasgow,English Literature: Fantasy,M.Litt.,12,21532
+242,Duke University,18,United States,Durham,Electrical and Computer Engineering (with concentration in Photonics),M.Eng.,24,26770
+243,Pennsylvania State University,81,United States,University Park,Health Policy and Administration,Master,21,36974
+244,The University of Manchester,57,United Kingdom,Manchester,Computer Systems Engineering,M.Eng.,48,28107
+245,University of Oxford,1,United Kingdom,Oxford,Computer Science,M.Sc.,12,31023
+246,RWTH Aachen University,87,Germany,Aachen,Media Informatics,M.Sc.,24,0
+247,Stanford University,3,United States,Stanford,Computational and Mathematical Engineering - Mathematical & Computational Finance Track,M.Sc.,24,16901
+248,"University of California, Santa Cruz",167,United States,Santa Cruz,Bioinformatics,M.Sc.,24,32852
+249,University of Groningen,79,Netherlands,Groningen,Human-Machine Communication,M.Sc.,24,16206
+250,University of Zurich,90,Switzerland,Zürich,Biology: Quantitative Biology and Systemsbiology,M.Sc.,18,1434
+251,University of Florida,156,United States,Gainesville,Electrical & Computer Engineering (Communication),M.Sc.,24,17394
+252,University of Illinois at Urbana Champaign,50,United States,Urbana,"Bioinformatics, Computer Science",M.Sc.,24,27412
+253,University of Adelaide,135,Australia,Adelaide,Software Engineering,M.Eng.,24,27096
+254,Yale University,8,United States,New Haven,Computer Science,M.Sc.,24,51400
+255,University of Queensland,69,Australia,Brisbane,Data Science,Master,18,1910
+256,Lancaster University,146,United Kingdom,Lancaster,E-Business and Innovation,M.Sc.,12,22608
+257,University of Freiburg,76,Germany,Freiburg,Computer Science,M.Sc.,24,3330
+258,University of Oslo,121,Norway,Oslo,Informatics - Programming and System Architecture,Master,24,0
+259,University of Southern California,66,United States,Los Angeles,Cyber Security Engineering,M.Sc.,24,26724
+260,Australian National University,49,Australia,Canberra,"Cyber Security, Strategy and Risk Management",Master,18,32434
+261,University of Glasgow,93,United Kingdom,Glasgow,Geoinformation Technology and Cartography,Postgraduate Certificate,3,8563
+262,Imperial College London,9,United Kingdom,London,Advanced Computing,M.Sc.,12,39105
+263,University of Warwick,79,United Kingdom,Coventry,Computer Science,M.Sc.,12,31614
+264,Australian National University,49,Australia,Canberra,Applied Data Analytics,Master,18,29588
+265,University of Michigan,20,United States,Ann Arbor,Science in Information,M.Sc.,24,23339
+266,University of Bern,110,Switzerland,Bern,Computer Science,M.Sc.,18,1931
+267,University of Oxford,1,United Kingdom,Oxford,Mathematics and Foundations of Computer Science,M.Sc.,12,29268
+268,King's College London,38,United Kingdom,London,Digital Asset and Media Management,M.A.,12,29256
+269,University of British Columbia,37,Canada,Vancouver,Bioinformatics,M.Sc.,24,6490
+270,University of Glasgow,93,United Kingdom,Glasgow,Computer Systems Engineering,M.Sc.,12,25687
+271,Ohio State University,71,United States,Columbus,Computer Science and Engineering,M.Sc.,24,38691
+272,University of Glasgow,93,United Kingdom,Glasgow,Information Management & Preservation,M.Sc.,12,21532
+273,London School of Economics and Political Science,26,United Kingdom,London,Applied Social Data Science,M.Sc.,12,34960
+274,Queen Mary University of London,130,United Kingdom,London,Telecommunication and Wireless Systems with Industrial Experience,M.Sc.,24,25968
+275,University of Southern California,66,United States,Los Angeles,Computer Science,M.Sc.,24,53448
+276,University of Sheffield,106,United Kingdom,Sheffield,Advanced Computer Science,M.Sc.,12,27618
+277,Duke University,18,United States,Durham,Electrical and Computer Engineering (with concentration in Sensing and Waves),M.Eng.,24,26770
+278,University of Pittsburgh,110,United States,Pittsburgh,Electrical and Computer Engineering,M.Sc.,24,44474
+279,University of Washington,28,United States,Seattle,Health Informatics and Health Information Management,Master,24,45630
+280,University of Toronto,21,Canada,Toronto,Information,Master,16,26412
+281,University of Heidelberg,47,Germany,Heidelberg,Scientific Computing,M.Sc.,24,3330
+282,University of Oslo,121,Norway,Oslo,Informatics - Language Technology,Master,24,0
+283,Hong Kong University of Science and Technology,46,Hong Kong (SAR),Hong Kong,Information Systems,M.Phil.,24,5375
+284,Stanford University,3,United States,Stanford,Computational and Mathematical Engineering - Data Science Track,M.Sc.,24,16901
+285,Imperial College London,9,United Kingdom,London,Computing Science,M.Sc.,12,39105
+286,Carnegie Mellon University,24,United States,Pittsburgh,Information Security Policy and Management,M.Sc.,24,49600
+287,University of Queensland,69,Australia,Brisbane,Information Technology,Master,24,30564
+288,Kyoto University,65,Japan,Kyoto,International Course in Communications and Computer Engineering,Master,12,77085
+289,University of Sussex,161,United Kingdom,Brighton,Information Technology with Business and Management,M.Sc.,12,25357
+290,Rutgers University,176,United States,New Brunswick,Electrical and Computer Engineering,M.Sc.,24,31295
+291,University of Glasgow,93,United Kingdom,Glasgow,Information Technology,M.Sc.,12,25687
+292,University of Sussex,161,United Kingdom,Brighton,Advanced Computer Science,M.Sc.,12,25357
+293,University of Southern California,66,United States,Los Angeles,Computer Science - Scientists and Engineers,M.Sc.,24,53448
+294,University of Glasgow,93,United Kingdom,Glasgow,Geospatial and Mapping Sciences,Postgraduate Certificate,3,8563
+295,Pennsylvania State University,81,United States,University Park,Homeland Security,Master,24,36974
+296,The University of Manchester,57,United Kingdom,Manchester,Artificial Intelligence with Industrial Experience,M.Eng.,60,28107
+297,The University of Hong Kong,36,Hong Kong (SAR),Hong Kong,Electronic Commerce and Internet Computing,M.Sc.,12,20574
+298,University of Amsterdam,62,Netherlands,Amsterdam,Information Studies - Data Science,M.Sc.,12,24431
+299,Aarhus University,123,Denmark,Aarhus,Bioinformatics,M.Sc.,24,14985
+300,Hong Kong University of Science and Technology,46,Hong Kong (SAR),Hong Kong,Electronic and Computer Engineering,M.Phil.,24,5375
+301,Queen Mary University of London,130,United Kingdom,London,Artificial Intelligence,M.Sc.,12,25968
+302,University of Bristol,78,United Kingdom,Bristol,Wireless Communications and Signal Processing,M.Sc.,12,28107
+303,University of Alberta,132,Canada,Edmonton,Internetworking,M.Sc.,24,7924
+304,The University of Manchester,57,United Kingdom,Manchester,Advanced Computer Science-Semantic Technologies,M.Sc.,12,28107
+305,Rutgers University,176,United States,New Brunswick,Public Informatics,Master,18,30024
+306,University of Copenhagen,116,Denmark,Copenhagen,Information Science and Cultural Communication,M.Sc.,24,13991
+307,Ghent University,143,Belgium,Gent,Bioinformatics,M.Sc.,24,1989
+308,Indiana University Bloomington,146,United States,Bloomington,IT Management,M.Sc.,15,28936
+309,The Chinese University of Hong Kong,55,Hong Kong (SAR),Hong Kong,Computer Science,M.Sc.,12,22410
+310,ETH Zurich - Swiss Federal Institute of Technology,11,Switzerland,Zürich,Electrical Engineering and Information Technology,M.Sc.,18,1117
+311,Lancaster University,146,United Kingdom,Lancaster,Communication Systems by Research,M.Sc.,24,22473
+312,Rutgers University,176,United States,Camden,Computational and Integrative Biology,M.Sc.,24,27664
+313,University of Groningen,79,Netherlands,Groningen,Datafication and Digital Literacy,Master,18,13875
+314,University of York,119,United Kingdom,York,Communications Engineering,M.Sc.,12,25553
+315,Princeton University,7,United States,Princeton,Applied and Computational Math,Master,48,47140
+316,University of Washington,28,United States,Seattle,Geospatial Technologies,M.Sc.,12,28974
+317,Leiden University,68,Netherlands,Leiden,ICT in Business,M.Sc.,24,20313
+318,University of Washington,28,United States,Seattle,Information Systems,M.Sc.,12,31680
+319,University of Southampton,118,United Kingdom,Southampton,Computer Science,M.Sc.,12,29940
+320,Carnegie Mellon University,24,United States,Pittsburgh,Computational Finance,M.Sc.,18,55400
+321,Indiana University Bloomington,146,United States,Bloomington,Cybersecurity Risk Management,M.Sc.,18,28936
+322,Indiana University Bloomington,146,United States,Bloomington,Cybersecurity Risk Management,M.Sc.,18,28936
+323,University of British Columbia,37,Canada,Vancouver,Digital Media,Master,16,31474
+324,"University of California, San Diego",30,United States,San Diego,"Computational Science, Mathematics and Engineering",M.Sc.,24,32109
+325,University of Glasgow,93,United Kingdom,Glasgow,Geospatial and Mapping Sciences,Postgraduate Diploma,9,17125
+326,Swiss Federal Institute of Technology Lausanne,35,Switzerland,Lausanne,Digital Humanities,M.Sc.,24,1263
+327,University of Queensland,69,Australia,Brisbane,Computer Science,Master,12,30564
+328,University of New South Wales,96,Australia,Kensington,Information Systems Management,Master,19,31865
+329,University of Zurich,90,Switzerland,Zürich,Software Systems,M.Sc.,24,1434
+330,University of Sheffield,106,United Kingdom,Sheffield,Information Management,M.Sc.,12,25785
+331,The University of Manchester,57,United Kingdom,Manchester,Data Science,M.Sc.,12,25663
+332,London School of Economics and Political Science,26,United Kingdom,London,Data Science,M.Sc.,12,34960
+333,"University of California, Santa Barbara",52,United States,Santa Barbara,Computer Science,M.Sc.,24,27732
+334,Cornell University,19,United States,Ithaca,Regional Science,M.Sc.,24,20800
+335,Lund University,98,Sweden,Lund,Information Systems,M.Sc.,12,12425
+336,University of Copenhagen,116,Denmark,Copenhagen,IT and Cognition,M.Sc.,24,13991
+337,Duke University,18,United States,Durham,Electrical and Computer Engineering (with concentration in Micro-Nano Systems),M.Eng.,24,26770
+338,University of Queensland,69,Australia,Brisbane,Bioinformatics,Master,18,27800
+339,Technical University of Munich,44,Germany,Garching bei München,Automotive Software Engineering,M.Sc.,24,286
+340,University of Oxford,1,United Kingdom,Oxford,Mathematical Modelling and Scientific Computing,M.Sc.,12,29268
+341,University of Southampton,118,United Kingdom,Southampton,Software Engineering,M.Sc.,12,29940
+342,University of Bristol,78,United Kingdom,Bristol,"Advanced Computing - Machine Learning, Data Mining and High-Performance Computing",M.Sc.,12,26518
+343,Arizona State University,123,United States,Tempe Junction,Computer Science,Master,24,21672
+344,University of Tübingen,89,Germany,Tübingen,Medical Informatics,M.Sc.,24,3330
+345,Queen Mary University of London,130,United Kingdom,London,Internet of Things,M.Sc.,12,25968
+346,University of Pennsylvania,12,United States,Philadelphia,Urban Spatial Analytics,M.Sc.,12,49574
+347,Johns Hopkins University,12,United States,Baltimore,Health Sciences Informatics Research,M.Sc.,24,52250
+348,University of Illinois at Urbana Champaign,50,United States,Urbana,Computer Science,Master,24,27412
+349,King's College London,38,United Kingdom,London,Advanced Computing,M.Sc.,12,31162
+350,University of York,119,United Kingdom,York,Archaeological Information Systems,M.Sc.,12,19162
+351,University of Queensland,69,Australia,Brisbane,Bioinformatics Research Extensive,Master,18,27800
+352,Swiss Federal Institute of Technology Lausanne,35,Switzerland,Lausanne,Cyber Security,M.Sc.,24,1263
+353,RWTH Aachen University,87,Germany,Aachen,Software Systems Engineering,M.Sc.,24,0
+354,Carnegie Mellon University,24,United States,Pittsburgh,Computational Biology,M.Sc.,24,44500
+355,Duke University,18,United States,Durham,Electrical and Computer Engineering (with concentration in Signal Processing and Communications),M.Eng.,24,26770
+356,Autonomous University of Barcelona,145,Spain,Barcelona,Data Science,Master,12,19980
+357,University of Oslo,121,Norway,Oslo,Informatics - Technical and Scientific Applications,M.Sc.,24,0
+358,Imperial College London,9,United Kingdom,London,Computing (Management and Finance),M.Sc.,12,39105
+359,Carnegie Mellon University,24,United States,Pittsburgh,Computational Data Science,M.Sc.,12,47470
+360,University of Sydney,59,Australia,Sydney,Data Science,Master,12,29467
+361,University of Southern California,66,United States,Los Angeles,Computer Engineering,M.Sc.,24,53448
+362,The University of Hong Kong,36,Hong Kong (SAR),Hong Kong,Computer Science,M.Sc.,12,20574
+363,University of Southern California,66,United States,Los Angeles,Computer Science (Scientists and Engineers),M.Sc.,24,53448
+364,The University of Manchester,57,United Kingdom,Manchester,Advanced Computer Science,M.Sc.,12,28107
+365,Arizona State University,123,United States,Tempe Junction,Computer Science (Information Assurance),Master,24,21672
+366,Duke University,18,United States,Durham,Electrical and Computer Engineering (with concentration in Computer Engineering),M.Eng.,24,26770
+367,University of Pittsburgh,110,United States,Pittsburgh,Library and Information Science,Master,18,40732
+368,Durham University,114,United Kingdom,Durham,Scientific Computing and Data Analysis,M.Sc.,12,27496
+369,University of Tübingen,89,Germany,Tübingen,Data Science in Business and Economics,M.Sc.,24,3330
+370,University of Florida,156,United States,Gainesville,Information Systems and Operations Management,M.Sc.,24,17394
+371,The University of Manchester,57,United Kingdom,Manchester,Software Engineering with Industrial Experience,M.Eng.,60,28107
+372,Johns Hopkins University,12,United States,Baltimore,Post-Master's Certificate In Environmental Planning and Management,Postgraduate Certificate,36,53740
+373,University of British Columbia,37,Canada,Vancouver,Library and Information Studies,Master,24,6820
+374,"University of California, Berkeley",15,United States,Berkeley,Information Management and Systems,Master,24,14132
+375,University of Bonn,110,Germany,Bonn,Computer Science,M.Sc.,24,637
+376,University of Copenhagen,116,Denmark,Copenhagen,Bioinformatics,M.Sc.,24,16406
+377,Arizona State University,123,United States,Tempe Junction,Computer Science (Information Assurance),M.Sc.,24,21672
+378,McGill University,44,Canada,Québec,Information Studies (Non-Thesis),Master,24,1683
+379,McGill University,44,Canada,Québec,Information Studies (Non-Thesis) - Project,Master,24,1683
+380,King's College London,38,United Kingdom,London,Data Science,M.Sc.,12,31162
+381,University College London,14,United Kingdom,London,Digital Technologies and Public Policy,Master,12,30380
+382,University of Glasgow,93,United Kingdom,Glasgow,Data Science,M.Sc.,12,25687
+383,"University of California, Santa Cruz",167,United States,Santa Cruz,Digital Arts/New Media,M.A.,24,32852
+384,Queen Mary University of London,130,United Kingdom,London,Telecommunication and Wireless Systems,M.Sc.,12,25968
+385,Pennsylvania State University,81,United States,University Park,Data Analytics,M.Sc.,24,38466
+386,University of Alberta,132,Canada,Camrose,Library and Information Studies,Master,24,7924
+387,Hong Kong University of Science and Technology,46,Hong Kong (SAR),Hong Kong,Computer Science and Engineering,M.Phil.,24,5375
+388,Technical University of Munich,44,Germany,Garching bei München,Informatics,M.Sc.,24,143
+389,McMaster University,77,Canada,Hamilton,Geography,M.Sc.,12,12651
+390,University of Southern California,66,United States,Los Angeles,Neuroimaging and Informatics,M.Sc.,12,53448
+391,Stockholm University,153,Sweden,Stockholm,Strategic Information Systems Management,M.Sc.,24,14528
+392,Arizona State University,123,United States,Mesa,Technology (Graphic Information Technology),Master,24,29560
+393,Maastricht University,128,Netherlands,Maastricht,Media Studies - Digital Cultures,M.A.,12,15318
+394,Australian National University,49,Australia,Canberra,Computing (Advanced),Master,24,32434
+395,Stanford University,3,United States,Stanford,Joint Computer Science MS/MBA Degree,M.Sc.,24,10620
+396,McMaster University,77,Canada,Hamilton,Computing and Software,M.Sc.,24,12651
+397,Duke University,18,United States,Durham,Health Informatics,Master,24,21228
+398,ETH Zurich - Swiss Federal Institute of Technology,11,Switzerland,Zürich,Computational Biology and Bioinformatics,M.Sc.,18,1117
+399,Arizona State University,123,United States,Tempe Junction,"Electrical Engineering (Arts, Media and Engineering)",M.Sc.,24,21672
+400,Arizona State University,123,United States,Peoria,Social Technologies,M.A.,24,29560
+401,Johns Hopkins University,12,United States,Baltimore,Environmental Planning and Management,Postgraduate Certificate,36,53740
+402,University of Nottingham,149,United Kingdom,Nottingham,Human Computer Interaction,M.Sc.,12,27881
+403,Stockholm University,153,Sweden,Stockholm,Open eGovernment,M.Sc.,24,14528
+404,University of Sheffield,106,United Kingdom,Sheffield,Data Analytics,M.Sc.,12,27618
+405,University of Southampton,118,United Kingdom,Southampton,Applied Geographical Information Systems and Remote Sensing,M.Sc.,12,25235
+406,University of Nottingham,149,United Kingdom,Nottingham,"Computational Neuroscience, Cognition and AI",M.Sc.,12,26121
+407,Carnegie Mellon University,24,United States,Pittsburgh,Intelligent Information Systems,M.Sc.,24,47300
+408,University of Alberta,132,Canada,Edmonton,Internetworking,M.Sc.,24,7924
+409,Pennsylvania State University,81,United States,University Park,Computer Science and Engineering,M.Eng.,24,38466
+410,Seoul National University,63,South Korea,Seoul,Electrical and Computer Engineering,Master,24,6836
+411,University of Pittsburgh,110,United States,Pittsburgh,Management Information Systems (STEM),M.Sc.,24,42608
+412,University of Southern California,66,United States,Los Angeles,Communication Informatics,M.Sc.,24,53448
+413,University of Sydney,59,Australia,Sydney,Information Technology,Master,18,29467
+414,Imperial College London,9,United Kingdom,London,Analogue and Digital Integrated Circuit Design,M.Sc.,12,38189
+415,Queen Mary University of London,130,United Kingdom,London,Big Data Science,M.Sc.,12,25968
+416,Seoul National University,63,South Korea,Seoul,Computer Science and Engineering,Master,24,6836
+417,Washington University in St. Louis,54,United States,Saint Louis,Computer Science and Engineering,M.Eng.,72,52400
+418,The University of Hong Kong,36,Hong Kong (SAR),Hong Kong,Data Science,Master,18,20574
+419,Freie Universität Berlin,104,Germany,Berlin,Computational Sciences,M.Sc.,24,0
+420,The University of Manchester,57,United Kingdom,Manchester,Artificial Intelligence,M.Eng.,48,28107
+421,Carnegie Mellon University,24,United States,Pittsburgh,Computer Vision,M.Sc.,16,47520
+422,Imperial College London,9,United Kingdom,London,Clinical Research,Master,12,42161
+423,Stockholm University,153,Sweden,Stockholm,Geomatics with Remote Sensing and GIS,M.Sc.,24,15065
+424,Boston University,74,United States,Boston,Computer Information Systems,M.Sc.,12,52816
+425,Technical University of Munich,44,Germany,München,Computational Mechanics,M.Sc.,24,286
+426,King's College London,38,United Kingdom,London,Computational Finance,M.Sc.,12,34828
+427,Carnegie Mellon University,24,United States,Pittsburgh,Software Engineering,M.Sc.,18,47300
+428,Arizona State University,123,United States,Phoenix,Biomedical Informatics,M.Sc.,24,22482
+429,RWTH Aachen University,87,Germany,Aachen,Computer Aided Conception and Production in Mechanical Engineering,M.Sc.,24,9990
+430,Queen Mary University of London,130,United Kingdom,London,Bioinformatics,M.Sc.,12,26824
+431,Pompeu Fabra University,135,Spain,Barcelona,Sound and Music Computing,M.Sc.,12,6382
+432,Arizona State University,123,United States,Tempe Junction,Geographic Information Systems,Master,12,21672
+433,University of Southampton,118,United Kingdom,Southampton,Data Science,M.Sc.,12,29940
+434,Australian National University,49,Australia,Canberra,Quantum Technology (Advanced),M.Sc.,24,29588
+435,Technical University of Munich,44,Germany,München,Cartography,M.Sc.,24,286
+436,Massachusetts Institute of Technology (MIT),4,United States,Cambridge,Health Sciences and Technology,M.Sc.,60,51832
+437,"University of California, San Diego",30,United States,San Diego,Wireless Embedded Systems (Advanced),Master,24,32109
+438,University of Ulm,149,Germany,Ulm,Communications Technology,M.Sc.,24,3330
+439,The University of Manchester,57,United Kingdom,Manchester,Bioinformatics (PhD),M.Phil.,12,2811
+440,University of Birmingham,116,United Arab Emirates,Dubai,Computer Science,M.Sc.,12,27883
+441,University of St Andrews,165,United Kingdom,Saint Andrews,Information Technology,M.Sc.,12,26873
+442,University of Amsterdam,62,Netherlands,Amsterdam,Medical Informatics,M.Sc.,24,17094
+443,King's College London,38,United Kingdom,London,Artificial Intelligence,M.Sc.,12,29256
+444,ETH Zurich - Swiss Federal Institute of Technology,11,Switzerland,Zürich,Neural Systems and Computation,M.Sc.,18,1117
+445,University of Groningen,79,Netherlands,Groningen,Computer-mediated Communication,Master,12,13875
+446,University of St Andrews,165,United Kingdom,Saint Andrews,Digital Health,M.Sc.,12,26873
+447,University of Glasgow,93,United Kingdom,Glasgow,Geoinformation Technology and Cartography,Postgraduate Diploma,9,17125
+448,University of Tübingen,89,Germany,Tübingen,Machine Learning,Master,24,3330
+449,University of Queensland,69,Australia,Brisbane,Geographic Information Science,Master,24,19414
+450,University of Alberta,132,Canada,Edmonton,Electrical and Computer Engineering,M.Sc.,24,7924
+451,Imperial College London,9,United Kingdom,London,Communications and Signal Processing,M.Sc.,12,38189
+452,Tufts University,152,United States,Medford,Data Science,M.Sc.,24,51288
+453,The University of Manchester,57,United Kingdom,Manchester,Management and Information Systems-Change and Development,M.Sc.,12,24441
+454,University of Adelaide,135,Australia,Adelaide,Computer Science,Master,24,27096
+455,University of Cambridge,2,United Kingdom,Cambridge,Machine Learning and Machine Intelligence,M.Phil.,12,38212
+456,Arizona State University,123,United States,Tempe Junction,Computer Engineering (Computer Systems),M.Sc.,24,21672
+457,The University of Manchester,57,United Kingdom,Manchester,Health Data Science,Master,12,22608
+458,University of Zurich,90,Switzerland,Zürich,Internet and Society,Master,24,1434
+459,University of Sheffield,106,United Kingdom,Sheffield,Computer Science With Speech and Language Processing,M.Sc.,12,27618
+460,University of Nottingham,149,United Kingdom,Nottingham,Scientific Computation,M.Sc.,12,21887
+461,Johns Hopkins University,12,United States,Baltimore,Information Systems,M.Sc.,12,68900
+462,ETH Zurich - Swiss Federal Institute of Technology,11,Switzerland,Zürich,Geomatic Engineering and Planning,M.Sc.,24,1117
+463,McMaster University,77,Canada,Hamilton,Computer Science,M.Sc.,12,12651
+464,Swiss Federal Institute of Technology Lausanne,35,Switzerland,Lausanne,Communication Systems,M.Sc.,24,1263
+465,Queen Mary University of London,130,United Kingdom,London,Internet of Things with Industrial Experience,M.Sc.,24,25968
+466,Technical University of Munich,44,Germany,München,Computational Science and Engineering,M.Sc.,24,286
+467,Arizona State University,123,United States,Tempe Junction,Computer Science (Big Data Systems),Master,24,21672
+468,Johns Hopkins University,12,United States,Baltimore,Computer Science,Postgraduate Certificate,36,53740
+469,Washington University in St. Louis,54,United States,Saint Louis,Computer Engineering,M.Sc.,12,52400
+470,Johns Hopkins University,12,United States,Baltimore,Cybersecurity / Security Informatics,M.Sc.,12,53740
+471,Technical University of Munich,44,Germany,München,Biomedical Computing,M.Sc.,24,286
+472,University of Sussex,161,United Kingdom,Brighton,Computing with Digital Media,M.Sc.,12,25357
+473,Princeton University,7,United States,Princeton,Computer Science,M.Sc.,24,49450
+474,Monash University,84,Australia,Caulfield North,Information Technology,Master,24,28044
+475,University of Tübingen,89,Germany,Tübingen,Bioinformatics,M.Sc.,24,3330
+476,Swiss Federal Institute of Technology Lausanne,35,Switzerland,Lausanne,Computational Science and Engineering,M.Sc.,24,1263
+477,The University of Manchester,57,United Kingdom,Manchester,Advanced Computer Science-Data and Knowledge Management,M.Sc.,12,28107
+478,University of British Columbia,37,Canada,Vancouver,Archival studies and master of library and information studies,Master,48,6820
+479,University of Southampton,118,United Kingdom,Southampton,Digital Marketing,M.Sc.,12,24380
+480,Ohio State University,71,United States,Columbus,Geodetic Science,M.Sc.,24,38181
+481,University of Tübingen,89,Germany,Tübingen,Neural Information Processing,M.Sc.,24,3330
+482,Cornell University,19,United States,Ithaca,Computer Science,M.Eng.,12,54584
+483,University of Queensland,69,Australia,Brisbane,Bioinformatics Research Extensive,Master,24,27800
+484,King's College London,38,United Kingdom,London,Urban Informatics,M.Sc.,12,31162
+485,Cornell University,19,United States,Ithaca,Electrical and Computer Engineering,M.Eng.,12,54584
+486,Freie Universität Berlin,104,Germany,Berlin,Bioinformatics,M.Sc.,24,0
+487,Queen Mary University of London,130,United Kingdom,London,Computing and Information Systems (conversion programme),M.Sc.,12,25968
+488,University of Southern California,66,United States,Los Angeles,Computer Science (Specialization in Computer Security),M.Sc.,24,53448
+489,University of Sussex,161,United Kingdom,Brighton,Information Technology and Intellectual Property Law,LL.M.,12,20469
+490,The University of Hong Kong,36,Hong Kong (SAR),Hong Kong,Information Technology in Education,M.Sc.,12,20574
+491,Rutgers University,176,United States,New Brunswick,Information Technology and Analytics,Master,12,35088
+492,Pompeu Fabra University,135,Spain,Barcelona,Bioinformatics for Health Sciences,M.Sc.,24,6382
+493,Technical University of Munich,44,Germany,München,Communications Engineering,M.Sc.,24,286
+494,Georg-August-Universität Göttingen,123,Germany,Göttingen,Computer Science,M.Sc.,24,773
+495,University of Tübingen,89,Germany,Tübingen,Computational Linguistics,M.A.,24,3330
+496,University of Basel,103,Switzerland,Basel,"Computer Science, Informatics",Master,18,1714
+497,University of Southern California,66,United States,Los Angeles,Computer Science (Data Science),M.Sc.,24,53448
+498,Boston University,74,United States,Boston,Software Development,M.Sc.,12,52816
+499,University of Southern California,66,United States,Los Angeles,Interactive Media and Games Division,Master,24,53448
+500,University of Bristol,78,United Kingdom,Bristol,Geographical Sciences (Physical Geography),M.Res.,12,26518
+501,University of St Andrews,165,United Kingdom,Saint Andrews,Artificial Intelligence,M.Sc.,12,26873
+502,Johns Hopkins University,12,United States,Baltimore,Post-Master´s Certificate in Information Systems Engineering,Postgraduate Certificate,36,53740
+503,University of Sydney,59,Australia,Sydney,Software,M.Eng.,18,30144
+504,Johns Hopkins University,12,United States,Baltimore,Geography & Environmental Engineering- Environmental Science,M.Sc.,12,53740
+505,University of St Andrews,165,United Kingdom,Saint Andrews,Advanced Computer Science,M.Sc.,12,26873
+506,University of Pittsburgh,110,United States,Pittsburgh,Health Information Systems,M.Sc.,12,45452
+507,Uppsala University,87,Sweden,Uppsala,Human-Computer Interaction,M.A.,24,12944
+508,University of Southampton,118,United Kingdom,Southampton,Artificial Intelligence,M.Sc.,12,29940
+509,Stanford University,3,United States,Stanford,Computational and Mathematical Engineering - Imaging Sciences Track,M.Sc.,24,16901
+510,Carnegie Mellon University,24,United States,Pittsburgh,Information Security and Assurance,M.Sc.,24,49600
+511,University of British Columbia,37,Canada,Vancouver,Computer Science,M.Sc.,24,6490
+512,Queen Mary University of London,130,United Kingdom,London,Sound and Music Computing with Industrial Experience,M.Sc.,24,25968
+513,Technical University of Munich,44,Germany,München,Bioinformatics,M.Sc.,24,286
+514,Queen Mary University of London,130,United Kingdom,London,Sound and Music Computing,M.Sc.,12,25968
+515,"University of California, Berkeley",15,United States,Berkeley,Computer Science,M.Sc.,24,14132
+516,Queen Mary University of London,130,United Kingdom,London,Computing and Information Systems with Industrial Experience (conversion programme),M.Sc.,24,25968
+517,University of Cologne,146,Germany,Köln,Information Systems (Information in English),M.Sc.,24,0
+518,Kyoto University,65,Japan,Kyoto,International Course in Social Informatics,Master,12,77085
+519,University of Southern California,66,United States,Los Angeles,Spatial Data Science,M.Sc.,24,26724
+520,University of New South Wales,96,Australia,Kensington,Information Technology,Master,24,31052
+521,University of Cambridge,2,United Kingdom,Cambridge,Advanced Computer Science,M.Phil.,9,40745
+522,Arizona State University,123,United States,Tempe Junction,"Computer Science (Arts, Media and Engineering)",M.Sc.,24,21672
+523,Carnegie Mellon University,24,United States,Pittsburgh,Computer Science,M.Sc.,18,47470
+524,Australian National University,49,Australia,Canberra,Computing,Master,24,30889
+525,University of Southampton,118,United Kingdom,Southampton,Cyber Security,M.Sc.,12,29940
+526,University of York,119,United Kingdom,York,Advanced Computer Science,M.Sc.,12,25553
+527,University of Florida,156,United States,Gainesville,Electrical and Computer Engineering,M.Eng.,24,17394
+528,Erasmus University Rotterdam,70,Netherlands,Rotterdam,Business Information Management,M.Sc.,12,19980
+529,University of Zurich,90,Switzerland,Zürich,Computing and Economics,M.Sc.,18,1434
+530,Stockholm University,153,Sweden,Stockholm,Computer and Systems Sciences,M.Sc.,12,14528
+531,Australian National University,49,Australia,Canberra,Digital Systems and Telecommunications,M.Eng.,24,30889
+532,University of Zurich,90,Switzerland,Zürich,People-Oriented Computing,M.Sc.,24,1434
+533,Stockholm University,153,Sweden,Stockholm,Health Informatics,M.Sc.,24,17755
+534,Queen Mary University of London,130,United Kingdom,London,Big Data Science with Industrial Experience,M.Sc.,24,25968
+535,University of Queensland,69,Australia,Brisbane,Information Technology (Management),Master,30,28971
+536,Université Catholique de Louvain (UCL),128,Belgium,Louvain-la-Neuve,Computer Science and Engineering,M.Eng.,24,4634
+537,Emory University,84,United States,Atlanta,Public Health - Public Health Informatics,M.Sc.,24,39000
+538,King's College London,38,United Kingdom,London,Digital Culture and Society,M.A.,12,29256
+539,Sorbonne University,73,France,Paris,Data Mining and Knowledge Management,Master,24,5550
+540,University of Copenhagen,116,Denmark,Copenhagen,Geography and Geoinformatics,M.Sc.,24,11944
+541,Lund University,98,Sweden,Lund,Geomatics,M.Sc.,24,14969
+542,University of York,119,United Kingdom,York,Digital Systems Engineering,M.Sc.,12,24808
+543,Monash University,84,Australia,Caulfield North,Data Science,Master,24,28044
+544,Rutgers University,176,United States,New Brunswick,Computer Science,M.Sc.,12,51881
+545,University of Zurich,90,Switzerland,Zürich,Information Systems,M.Sc.,24,1434
+546,University of Glasgow,93,United Kingdom,Glasgow,Geoinformation Technology and Cartography,M.Sc.,12,25687
+547,King's College London,38,United Kingdom,London,Cyber Security,M.Sc.,12,29256
+548,Stanford University,3,United States,Stanford,Computer Science,M.Sc.,24,34986
+549,University of Michigan,20,United States,Ann Arbor,Computer Science and Engineering,M.Sc.,24,25163
+550,Leiden University,68,Netherlands,Leiden,Data Science: Computer Science,M.Sc.,24,20313
+551,Stockholm University,153,Sweden,Stockholm,Computer and Systems Sciences,M.Sc.,24,14528
+552,University of Oxford,1,United Kingdom,Oxford,Social Data Science,M.Sc.,10,31024
+553,University of Sussex,161,United Kingdom,Brighton,Data Science,M.Sc.,12,20469
+554,Pennsylvania State University,81,United States,University Park,Information Sciences,Master,24,36974
+555,University of Nottingham,149,Malaysia,Semenyih,Electronic Communications and Computer Engineering (Malaysia Campus),M.Sc.,12,17673
+556,Stockholm University,153,Sweden,Stockholm,Decision Analysis and Data science,M.Sc.,24,14528
+557,Technical University of Munich,44,Germany,Garching bei München,Data Engineering and Analytics,M.Sc.,24,286
+558,Technical University of Munich,44,Germany,Garching bei München,Information Systems,M.Sc.,24,286
+559,University of York,119,United Kingdom,York,Computer Science,M.Sc.,12,24808
+560,University of Oslo,121,Norway,Oslo,Computational Science,M.Sc.,24,0
+561,Pompeu Fabra University,135,Spain,Barcelona,Computational Biomedical Engineering,M.Eng.,12,6382
+562,University of Amsterdam,62,Netherlands,Amsterdam,Psychology - Behavioural Data Science,M.Sc.,12,18132
+563,ETH Zurich - Swiss Federal Institute of Technology,11,Switzerland,Basel,Data Science,Master,18,11525
+564,University of Southampton,118,United Kingdom,Southampton,European Masters in Embedded Computing Systems (EMECS),M.Sc.,24,29940
+565,University of Nottingham,149,United Kingdom,Nottingham,Financial and Computational Mathematics,M.Sc.,12,27881
+566,University of Oxford,1,United Kingdom,Oxford,Mathematical Modelling and Scientific Computing,M.Sc.,12,29268
+567,University of Illinois at Urbana Champaign,50,United States,Urbana,Geographic Information Science - Professional Science,M.Sc.,24,27412
+568,University of Heidelberg,47,Germany,Heidelberg,Medical Informatics,M.Sc.,24,3330
+569,University of Bristol,78,United Kingdom,Bristol,Geographical Sciences (Human Geography),M.Phil.,12,20897
+570,University of Sheffield,106,United Kingdom,Sheffield,Software Systems and Internet Technology,M.Sc.,12,27618
+571,Australian National University,49,Australia,Canberra,Business Information Systems (Advanced),Master,24,32434
+572,McGill University,44,Canada,Québec,Computer Science (Non-Thesis),M.Sc.,24,1683
+573,Rice University,86,United States,Houston,Computer Science,Master,24,46600
+574,Lund University,98,Sweden,Lund,"Physics, Biological Physics and Computational Biology",M.Sc.,24,14969
+575,University of Florida,156,United States,Gainesville,Electrical & Computer Engineering (Semiconductor Device Technology),M.Sc.,24,17394
+576,University of Oslo,121,Norway,Oslo,Information and Communication Technology Law,LL.M.,18,0
+577,University of Southern California,66,United States,Los Angeles,Applied Data Science,M.Sc.,24,26724
+578,University of Alberta,132,Canada,Edmonton,Digital Humanities,M.A.,24,7924
+579,University of Wisconsin Madison,43,United States,Madison,Cartography And Geographic Information Systems,M.Sc.,24,25336
+580,University of Wisconsin Madison,43,United States,Madison,Engineering Data Analytics,M.Eng.,24,25336
+581,Arizona State University,123,United States,Tempe Junction,Computer Engineering (Electrical Engineering),M.Sc.,24,21672
+582,Swiss Federal Institute of Technology Lausanne,35,Switzerland,Lausanne,Data Science,M.Sc.,24,1263
+583,Ohio State University,71,United States,Columbus,Electrical and Computer Engineering,M.Sc.,24,38691
+584,University of Southern California,66,United States,Los Angeles,Computer Science (Specialization in Intelligent Robotics),M.Sc.,24,53448
+585,Lancaster University,146,United Kingdom,Lancaster,Data Science,M.Sc.,12,25052
+586,University of Glasgow,93,United Kingdom,Glasgow,Software Development,M.Sc.,12,25687
+587,Carnegie Mellon University,24,United States,Pittsburgh,Master of Human-Computer Interaction,Master,12,47470
+588,University of Queensland,69,Australia,Brisbane,Bioinformatics,Master,12,27800
+589,University of New South Wales,96,Australia,Canberra,Cyber Security,Master,12,25687
+590,University of Southampton,118,United Kingdom,Southampton,Web Science,M.Sc.,12,29940
+591,University of Alberta,132,Canada,Camrose,Library and Information Studies,Master,36,7924
+592,King's College London,38,United Kingdom,London,Mobile and Personal Communications,M.Sc.,12,31162
+593,University of Southern California,66,United States,Los Angeles,Computer Science - Multimedia and Creative Technologies,M.Sc.,24,53448
+594,Stanford University,3,United States,Stanford,Biomedical Informatics,M.Sc.,24,37270
+595,Lund University,98,Sweden,Lund,Bioinformatics,M.Sc.,24,14969
+596,Leiden University,68,Netherlands,Leiden,Computer Science,M.Sc.,24,20313
+597,Pennsylvania State University,81,United States,University Park,Health Education,M.Ed.,24,36974
+598,Duke University,18,United States,Durham,Computer Science,M.Sc.,24,26770
+599,Monash University,84,Australia,Caulfield North,Business information systems studies,Master,24,28044
+600,Seoul National University,63,South Korea,Seoul,Computational Science and Technology,M.Sc.,24,5620
+601,Carnegie Mellon University,24,United States,Pittsburgh,Information Networking,M.Sc.,16,47300
+602,Leiden University,68,Netherlands,Leiden,Data Science: Statistical Science,M.Sc.,24,20313
+603,The Chinese University of Hong Kong,55,Hong Kong (SAR),Hong Kong,Computer Science and Engineering,M.Phil.,24,5384
+604,University of Glasgow,93,United Kingdom,Glasgow,Data Analytics,M.Sc.,12,25687
+605,University of British Columbia,37,Canada,Vancouver,Management Information Systems,Master,24,6493
+606,University of Glasgow,93,United Kingdom,Glasgow,Computing Science,M.Sc.,12,25687
+607,University of Bonn,110,Germany,Bonn,Life Science Informatics,M.Sc.,24,637
+608,University of Pittsburgh,110,United States,Pittsburgh,Telecommunications,M.Sc.,12,40732
+609,University of Bristol,78,United Kingdom,Bristol,Advanced Computing,M.Sc.,12,26518
+610,Monash University,84,Australia,Caulfield North,Archives and recordkeeping,Master,24,28044
+611,University of Southern California,66,United States,Los Angeles,Electrical Engineering  (Multimedia and Creative Technologies),M.Sc.,24,53448
+612,Emory University,84,United States,Atlanta,Public Health - Environmental Health and Epidemiology,M.Sc.,24,39000
+613,Emory University,84,United States,Atlanta,Public Health - Epidemiology,M.Sc.,24,39000
+614,Université Catholique de Louvain (UCL),128,Belgium,Louvain-la-Neuve,Computer Science,M.Sc.,24,4634
+615,University of Mannheim,123,Germany,Mannheim,Business Research,M.Sc.,24,3330
+616,University of Amsterdam,62,Netherlands,Amsterdam,Computational Sciences,M.Sc.,24,17094
+617,University of Oslo,121,Norway,Oslo,Informatics - Language and Communication,M.Sc.,24,0
+618,RWTH Aachen University,87,Germany,Aachen,"Electrical Engineering, Information Technology and Computer Engineering (Communications Engineering)",M.Sc.,24,0
+619,University of Bristol,78,United Kingdom,Bristol,Optical Communications and Signal Processing,M.Sc.,12,28107
+620,University of Groningen,79,Netherlands,Groningen,Communication and Information Studies,Master,12,13875
+621,University of Cambridge,2,United Kingdom,Cambridge,Scientific Computing,M.Phil.,12,34007
+622,University of Southern California,66,United States,Los Angeles,Computer Science - Computer Networks,M.Sc.,24,53448
+623,Technical University of Munich,44,Germany,München,Land Management and Land Tenure,M.Sc.,18,286
+624,University of Bristol,78,United Kingdom,Bristol,Computer Science (conversion),M.Sc.,12,28107
+625,Pennsylvania State University,81,United States,University Park,Information Science,M.Sc.,24,38466
+626,Indiana University Bloomington,146,United States,Bloomington,Human-Computer Interaction,M.Sc.,24,28936
+627,Emory University,84,United States,Atlanta,Public Health - Global Epidemiology,M.Sc.,24,39000
+628,Boston University,74,United States,Boston,Remote Sensing & Geospatial Sciences,M.A.,12,52816
+629,"University of California, Davis",59,United States,Davis,Computer Science,M.Sc.,24,43395
+630,Duke University,18,United States,Durham,Civil and Environmental Engineering (Engineering Environmental Geomechanics and Geophysics track),M.Sc.,24,26770
+631,University of Glasgow,93,United Kingdom,Glasgow,IT Cyber Security,M.Sc.,12,25687
+632,University of Southampton,118,United Kingdom,Southampton,Information Technology and Commerce,LL.M.,12,22124
+633,Imperial College London,9,United Kingdom,London,"Advanced Computational Methods for Aeronautics, Flow Management and Fluid-Structure Interaction",M.Sc.,12,38189
+634,Stockholm University,153,Sweden,Stockholm,Information Security,M.Sc.,24,14528
+635,Nanyang Technological University,51,Singapore,Singapore,Embedded Systems,M.Sc.,12,13830
+636,King's College London,38,United Kingdom,London,Big Data in Culture and Society,M.A.,12,29256
+637,Carnegie Mellon University,24,United States,Pittsburgh,Information Security,M.Sc.,16,47300
+638,Johns Hopkins University,12,United States,Baltimore,Applied Health Sciences Informatics,M.Sc.,12,53740
+639,University of St Andrews,165,United Kingdom,Saint Andrews,Data-Intensive Analysis,M.Sc.,12,26873
+640,University of Zurich,90,Switzerland,Zürich,Computational Linguistics,M.A.,24,1434
+641,Pompeu Fabra University,135,Spain,Barcelona,Data Science,Master,9,20535
+642,The University of Manchester,57,United Kingdom,Manchester,Computer Science (Human Computer Interaction),M.Eng.,48,28107
+643,Boston University,74,United States,Boston,Computer Science,M.Sc.,12,26408
+644,Tufts University,152,United States,Medford,Computer Science,M.Sc.,24,51288
+645,Queen Mary University of London,130,United Kingdom,London,Computer Aided Engineering,M.Sc.,12,25968
+646,Arizona State University,123,United States,Tempe Junction,Computer Science,M.Sc.,24,21672
+647,University of St Andrews,165,United Kingdom,Saint Andrews,Information Technology with Management,M.Sc.,12,26873
+648,Duke University,18,United States,Durham,Civil and Environmental Engineering (Computational Mechanics and Scientific Computing track),M.Sc.,24,26770
+649,Pompeu Fabra University,135,Spain,Barcelona,Computational Biomedical Engineering,M.Eng.,12,6382
+650,The University of Manchester,57,United Kingdom,Manchester,Software Engineering,M.Eng.,48,28107
+651,University of Warwick,79,United Kingdom,Coventry,Big Data and Digital Futures,M.Sc.,12,22626
+652,Indiana University Bloomington,146,United States,Bloomington,Data Science,M.Sc.,24,28936
+653,Duke University,18,United States,Durham,Computational Mechanics and Scientific Computing,M.Eng.,24,26770
+654,University of Amsterdam,62,Netherlands,Amsterdam,Information Studies - Information Systems,M.Sc.,12,24431
+655,University of California Irvine (UCI),96,United States,Irvine,Informatics,M.Sc.,24,11442
+656,University of Southampton,118,United Kingdom,Southampton,Aerodynamics and Computation,M.Sc.,12,26369
+657,University of Southern California,66,United States,Los Angeles,Accounting with Data and Analytics,Master,24,55204
+658,Cornell University,19,United States,Ithaca,City and Regional Planning,Master,24,35736
+659,University of British Columbia,37,Canada,Vancouver,Software Systems,Master,12,12644
+660,University of Sheffield,106,United Kingdom,Sheffield,Data Science,M.Sc.,12,27618
+661,Australian National University,49,Australia,Canberra,Quantitative Biology and Bioinformatics (Advanced),M.Sc.,24,29588
+662,Lancaster University,146,United Kingdom,Lancaster,Digital Humanities,M.A.,12,21386
+663,Arizona State University,123,United States,Mesa,Technical Communication,M.Sc.,24,29560
+664,University of St Andrews,165,United Kingdom,Saint Andrews,Computer Communication Systems,M.Sc.,12,26873
+665,Imperial College London,9,United Kingdom,London,Neurotechnology,M.Res.,12,38189
+666,Technical University of Munich,44,China,Beijing,Mathematics in Data Science,M.Sc.,24,143
+667,University of New South Wales,96,Australia,Canberra,Cyber Security Operations,Master,12,25687
+668,University of Warwick,79,United Kingdom,Coventry,Computer Science (Research),M.Sc.,12,27936
+669,Pennsylvania State University,81,United States,University Park,Health Policy and Administration,M.Sc.,24,38466
+670,Leiden University,68,Netherlands,Leiden,ICT in the Public Sector,M.Sc.,24,20313
+671,Delft University of Technology (TU Delft),58,Netherlands,Delft,Design for Interaction,M.Sc.,24,16834
+672,The Chinese University of Hong Kong,55,Hong Kong (SAR),Hong Kong,Information and Technology Management,M.Sc.,12,25574
+673,University of California Irvine (UCI),96,United States,Irvine,Software Engineering,M.Sc.,24,11442
+674,Kyoto University,65,Japan,Kyoto,International Course in Management of Civil Infrastructure in the Department of Civil and Earth Resources Engineering,M.Eng.,24,77085
+675,University of Bern,110,Switzerland,Bern,Bioinformatics and Computational Biology,M.Sc.,18,1931
+676,Leiden University,68,Netherlands,Leiden,Computer Science and Science Communication and Society,M.Sc.,24,20313
+677,University of Southern California,66,United States,Los Angeles,Computer Science (Game Development),Master,24,53448
+678,The University of Manchester,57,United Kingdom,Manchester,Advanced Computer Science-Advanced Web Technologies,M.Sc.,12,28107
+679,McGill University,44,Canada,Québec,Computer Science (Thesis) - Bioinformatics,M.Sc.,24,12690
+680,Lancaster University,146,United Kingdom,Lancaster,Cyber Security,M.Sc.,12,25052
+681,University of Southampton,118,United Kingdom,Southampton,Knowledge and Information Systems Management,M.Sc.,12,24380
+682,The University of Manchester,57,United Kingdom,Manchester,Computer Science (Human Computer Interaction) with Industrial Experience,M.Eng.,60,28107
+683,Hong Kong University of Science and Technology,46,Hong Kong (SAR),Hong Kong,Telecommunications,M.Sc.,12,18761
+684,University of Mannheim,123,Germany,Mannheim,Data Science,M.Sc.,24,3330
+685,University of Oslo,121,Norway,Oslo,Informatics - Robotics and Intelligent Systems,Master,24,0
+686,University of Bristol,78,United Kingdom,Bristol,Computer Science,M.Res.,12,26518
+687,Rutgers University,176,United States,New Brunswick,Information,Master,24,30144
+688,University of St Andrews,165,United Kingdom,Saint Andrews,Computing and Information Technology,M.Sc.,12,26873
+689,Lancaster University,146,United Kingdom,Lancaster,"Information Technology, Management and Organisational Change",M.Res.,12,22608
+690,University of Adelaide,135,Australia,Adelaide,Data Science,Master,24,28450
+691,University of British Columbia,37,Canada,Vancouver,Electrical and Computer Engineering,M.Eng.,12,14262
+692,Cornell University,19,United States,Ithaca,Regional Science,M.A.,24,20800
+693,University of Sussex,161,United Kingdom,Brighton,Intelligent and Adaptive Systems,M.Sc.,12,25357
