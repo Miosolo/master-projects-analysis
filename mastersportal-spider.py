@@ -1,39 +1,69 @@
-#%%
+# %%
 from bs4 import BeautifulSoup
 import requests
 import re
 import pandas as pd
 
-#%%
-# collect top universities: QS, THE, US News and Shanghai Jiaotong TOP 150
+# %%
+# collect top universities: QS, THE, US News and Shanghai Jiaotong TOP 100
 ucodePattern = r'^https://www.mastersportal.com/universities/(\d+)/'
-# QS TOP 150
-QSHtml = requests.get('https://www.mastersportal.com/rankings/1/world-university-rankings-times-higher-education.html')
-soup = BeautifulSoup(QSHtml.content)
-univList = soup.find_all(name='tr', attrs={'itemprop': 'itemListElement', 'class': 'RankingRow'})
-QSRanking = {}
-for u in univList:
-  udetails = u.find(attrs={'data-title': 'Universities'})
-  try:
-    ucode = re.findall(ucodePattern, udetails.a.attrs['href'])[0]
+# years in record
+rankingConfig = {
+    'QS': [2018, 2019, 2020],
+    'USNews': [2018, 2019],
+    'SJ': [2016, 2017, 2018],
+    'THE': [2017, 2018, 2019]
+}
+rankingDF = None
 
-    ranking2019 = int(u.find(attrs={'data-title': '2019'}).span.string)
-    ranking2018 = int(u.find(attrs={'data-title': '2018'}).span.string)
-    ranking2017 = int(u.find(attrs={'data-title': '2017'}).span.string)
+# at least a "TOP 100" record for all rankings
+for rankingOrg, recordYears in rankingConfig.items():
+  with open('tmp/{}-ranking.html'.format(rankingOrg)) as rankingHtml:
+    soup = BeautifulSoup(rankingHtml)
+    univList = soup.find_all(name='tr',
+                             attrs={'itemprop': 'itemListElement', 'class': 'RankingRow'})
 
-    if ranking2017 > 150 and ranking2018 > 150 and ranking2019 > 150:
-      continue
-  except:
-    continue
+    rankingList = []
+    for u in univList:
+      udetails = u.find(attrs={'data-title': 'Universities'})
 
-  QSRanking[int(ucode)] = {
-    'name': udetails.a.span.string,
-    '2019': int(ranking2019),
-    '2018': int(ranking2018),
-    '2017': int(ranking2017)
-  }
+      # university code in DB
+      try:
+        ucode = re.findall(ucodePattern, udetails.a.attrs['href'])[0]
+      except:
+        continue
 
-#%%
+      # rankRecord = [code, name, ranks...]
+      rankRecord = [ucode, re.sub(r'\s+', ' ', udetails.a.span.string)]
+      rank = []
+      try: # some records may be empty
+        for yr in recordYears:
+          rank.append(int(u.find(attrs={'data-title': yr}).span.string))
+      except:
+        continue
+      
+      # at least one <100 record
+      if min(rank) > 100:
+        continue
+      # add to tail
+      rankRecord.extend(rank)
+      rankingList.append(rankRecord)
+
+    orgRankingDF = pd.DataFrame(rankingList,
+                                columns=['ucode', 'Univ.'] + ['{}-{}'.format(rankingOrg, yr) for yr in recordYears])
+    if rankingDF is None:
+      rankingDF = orgRankingDF
+    else:
+      rankingDF = pd.merge(rankingDF, orgRankingDF, how='outer', on=['ucode', 'Univ.'])
+
+# prettify df
+rankingDF.set_index('ucode')
+# shrink to Int64
+rankingDF.apply(lambda col: col.astype('Int64') if col.dtype=='float64' else col)
+rankingDF.to_csv('export/rankings.csv', index=False)
+
+
+# %%
 # collect info from mastersportal.com
 # attributes to collect
 schools = []
@@ -49,7 +79,7 @@ summaries = []
 disciplines = []
 
 disciplineDict = {
-  24: 'Computer Science & IT',
+    24: 'Computer Science & IT',
 }
 
 for discCode, disc in disciplineDict.items():
@@ -58,16 +88,16 @@ for discCode, disc in disciplineDict.items():
       print("page", page+1)
     # query and receive json
     respRaw = requests.get(url='https://search.prtl.co/2018-07-23/',
-      params={'q': 'di-{}|en-100|lv-master|de-fulltime|tc-USD'.format(discCode), 'start': page*10})
+                           params={'q': 'di-{}|en-100|lv-master|de-fulltime|tc-USD'.format(discCode), 'start': page*10})
     if respRaw.status_code != 200:
       break
-    
+
     for prog in respRaw.json():\
-      # not in TOP
+            # not in TOP
       if prog['organisation_id'] not in QSRanking.keys():
-          continue
-      
-      try: # get info
+        continue
+
+      try:  # get info
         school = prog['organisation']
         schoolID = prog['organisation_id']
         country = prog['venues'][0]['country']
@@ -106,22 +136,23 @@ for discCode, disc in disciplineDict.items():
       durations.append(duration)
       fees.append(fee)
 
-#%%
+# %%
 programsDF = pd.DataFrame({
-  'School': schools,
-  'School ID': schoolids,
-  'Country': countries,
-  'City': cities,
-  'Discipline': disciplines,
-  'Program': programs,
-  'Program ID': programids,
-  'Degree': degrees,
-  'Duration /month': durations,
-  'Tuition fee /USD': fees,
-  'Description': summaries,
+    'School': schools,
+    'School ID': schoolids,
+    'Country': countries,
+    'City': cities,
+    'Discipline': disciplines,
+    'Program': programs,
+    'Program ID': programids,
+    'Degree': degrees,
+    'Duration /month': durations,
+    'Tuition fee /USD': fees,
+    'Description': summaries,
 })
-programsDF['QS2019'] = programsDF['School ID'].map(lambda id: QSRanking[id]['2019'])
-programsDF = programsDF[['School', 'QS2019', 'Country', 'City', 'Program', 'Degree', 
-  'Duration /month', 'Tuition fee /USD']]
+programsDF['QS2019'] = programsDF['School ID'].map(
+    lambda id: QSRanking[id]['2019'])
+programsDF = programsDF[['School', 'QS2019', 'Country', 'City', 'Program', 'Degree',
+                         'Duration /month', 'Tuition fee /USD']]
 programsDF.to_csv('CS.csv')
-#%%
+# %%
