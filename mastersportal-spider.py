@@ -1,9 +1,13 @@
 # %%
+from math import ceil
+import threading
+from queue import Queue
 from bs4 import BeautifulSoup
 import requests
 import re
 import pandas as pd
 
+# Get the rankings
 # %%
 # collect top universities: QS, THE, US News and Shanghai Jiaotong TOP 100
 ucodePattern = r'^https://www.mastersportal.com/universities/(\d+)/'
@@ -36,12 +40,12 @@ for rankingOrg, recordYears in rankingConfig.items():
       # rankRecord = [code, name, ranks...]
       rankRecord = [ucode, re.sub(r'\s+', ' ', udetails.a.span.string)]
       rank = []
-      try: # some records may be empty
+      try:  # some records may be empty
         for yr in recordYears:
           rank.append(int(u.find(attrs={'data-title': yr}).span.string))
       except:
         continue
-      
+
       # at least one <100 record
       if min(rank) > 100:
         continue
@@ -54,87 +58,111 @@ for rankingOrg, recordYears in rankingConfig.items():
     if rankingDF is None:
       rankingDF = orgRankingDF
     else:
-      rankingDF = pd.merge(rankingDF, orgRankingDF, how='outer', on=['ucode', 'Univ.'])
+      rankingDF = pd.merge(rankingDF, orgRankingDF, how='outer', on=[
+                           'ucode', 'Univ.']).set_index('ucode')
 
-# prettify df
-rankingDF.set_index('ucode')
 # shrink to Int64
-rankingDF.apply(lambda col: col.astype('Int64') if col.dtype=='float64' else col)
+rankingDF.apply(lambda col: col.astype('Int64')
+                if col.dtype == 'float64' else col)
 rankingDF.to_csv('export/rankings.csv', index=False)
+
+# Get the program records
+# %%
+# import csv ranking
+rankingDF = pd.read_csv('export/rankings.csv').set_index('ucode').apply(lambda col: col.astype('Int64')
+                                                                        if col.dtype == 'float64' else col)
+
+# %%
+def getPrograms(discCode, page, topUnivs, outQ):
+  "func to get programs online in a thread"
+  if page % 10 == 0:
+    print('disc', discCode, 'page', page)
+
+  # query and receive json
+  respRaw = requests.get(url='https://search.prtl.co/2018-07-23/',
+                         params={'q': 'di-{}|en-3098|lv-master|de-fulltime|tc-USD'.format(discCode), 'start': page*10})
+  if respRaw.status_code != 200:
+    outQ.put(None)
+    return
+
+  records = []  # to return
+  for prog in respRaw.json():
+    # not in TOP
+    if prog['organisation_id'] not in topUnivs:
+      continue
+
+    rec = []
+    # record = [univ, ucode, country, city,
+    # program, pcode, degree, duration, fee, summary]
+    try:  # get info
+      rec.append(prog['organisation'])
+      rec.append(prog['organisation_id'])
+      rec.append(prog['venues'][0]['country'])
+      rec.append(prog['venues'][0]['city'])
+      rec.append(prog['title'])
+      rec.append(prog['id'])
+      rec.append(prog['degree'])
+
+      if prog['tuition_fee']['unit'] != 'year':
+        raise AssertionError
+      else:
+        rec.append(prog['tuition_fee']['value'])
+
+      if prog['fulltime_duration']['unit'] == 'year':
+        rec.append(prog['fulltime_duration']['value'] * 12)
+      elif prog['fulltime_duration']['unit'] == 'month':
+        rec.append(prog['fulltime_duration']['value'])
+      elif prog['fulltime_duration']['unit'] == 'day':
+        rec.append(prog['fulltime_duration']['value']/30)
+      else:
+        raise AssertionError
+
+      rec.append(prog['summary'])
+    except:
+      print(prog)  # show in log
+      continue
+    records.append(rec)
+
+  if len(records) == 0:
+    outQ.put(None)
+  else:
+    outQ.put(records)
 
 
 # %%
-# collect info from mastersportal.com
-# attributes to collect
-schools = []
-schoolids = []
-countries = []
-cities = []
-programs = []
-programids = []
-degrees = []
-durations = []
-fees = []
-summaries = []
-disciplines = []
+# collect programs from mastersportal.com
 
 disciplineDict = {
     24: 'Computer Science & IT',
+    23: 'Business & Management',
+    7: 'Engineering & Technology',
+    11: 'Natural Sciences & Mathematics',
+    13: 'Social Sciences'
 }
+batchSize = 10
+topUnivs = rankingDF['Univ.'].tolist()
+listenQueue = Queue(batchSize)
+programTable = []
 
-for discCode, disc in disciplineDict.items():
-  for page in range(10000):
-    if page % 10 == 0:
-      print("page", page+1)
-    # query and receive json
-    respRaw = requests.get(url='https://search.prtl.co/2018-07-23/',
-                           params={'q': 'di-{}|en-100|lv-master|de-fulltime|tc-USD'.format(discCode), 'start': page*10})
-    if respRaw.status_code != 200:
-      break
+for discCode in disciplineDict.keys():
+  # get total numbers
+  testReq = requests.get(url='https://search.prtl.co/2018-07-23/',
+                         params={'q': 'di-{}|en-1|lv-master|de-fulltime|tc-USD'.format(discCode)})
+  # totalPages = int(testReq.headers['total'])
+  totalPages = 50
 
-    for prog in respRaw.json():\
-            # not in TOP
-      if prog['organisation_id'] not in QSRanking.keys():
+  for b in range(ceil(totalPages/batchSize)):
+    for r in range(batchSize):
+      # getPrograms(discCode, b*batchSize+r, topUnivs, listenQueue)
+      threading._start_new_thread(
+          getPrograms, (discCode, b*batchSize+r, topUnivs, listenQueue))
+    for r in range(batchSize):
+      out = listenQueue.get(timeout=5)
+      if out is None:
         continue
+      else:
+        programTable.extend(out)  # 2d-table
 
-      try:  # get info
-        school = prog['organisation']
-        schoolID = prog['organisation_id']
-        country = prog['venues'][0]['country']
-        city = prog['venues'][0]['city']
-        program = prog['title']
-        programID = prog['id']
-        degree = prog['degree']
-        summary = prog['summary']
-
-        if prog['tuition_fee']['unit'] != 'year':
-          raise AssertionError
-        else:
-          fee = prog['tuition_fee']['value']
-
-        if prog['fulltime_duration']['unit'] == 'year':
-          duration = prog['fulltime_duration']['value'] * 12
-        elif prog['fulltime_duration']['unit'] == 'month':
-          duration = prog['fulltime_duration']['value']
-        elif prog['fulltime_duration']['unit'] == 'day':
-          duration = prog['fulltime_duration']['value']/30
-        else:
-          raise AssertionError
-
-      except:
-        continue
-
-      schools.append(school)
-      schoolids.append(schoolID)
-      countries.append(country)
-      cities.append(city)
-      programs.append(program)
-      programids.append(programID)
-      degrees.append(degree)
-      disciplines.append(disc)
-      summaries.append(summary)
-      durations.append(duration)
-      fees.append(fee)
 
 # %%
 programsDF = pd.DataFrame({
