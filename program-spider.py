@@ -35,32 +35,49 @@ def getPrograms(discCode, page, outQ, topOnly = True):
     rec = []
     # record = [univ, ucode, country, city,
     # program, pcode, degree, fee, duration, summary]
-    try:  # get info
+    try:
       rec.append(prog['organisation'])
       rec.append(prog['organisation_id'])
-      rec.append(prog['venues'][0]['country'])
-      rec.append(prog['venues'][0]['city'])
+      try:
+        rec.append(prog['venues'][0]['country'])
+      except:
+        rec.append('')
+      try:
+        rec.append(prog['venues'][0]['city'])
+      except:
+        rec.append('')
       rec.append(prog['title'])
       rec.append(prog['id'])
       rec.append(prog['degree'])
-
-      if prog['tuition_fee']['unit'] != 'year':
-        raise AssertionError
-      else:
-        rec.append(prog['tuition_fee']['value'])
-
-      if prog['fulltime_duration']['unit'] == 'year':
-        rec.append(prog['fulltime_duration']['value'] * 12)
-      elif prog['fulltime_duration']['unit'] == 'month':
-        rec.append(prog['fulltime_duration']['value'])
-      elif prog['fulltime_duration']['unit'] == 'day':
-        rec.append(prog['fulltime_duration']['value']/30)
-      else:
-        raise AssertionError
-
-      rec.append(prog['summary'])
-    except:
-      print('error: {}, {}'.format(prog['organisation'], prog['title']))  # show in log
+      
+      try:
+        if prog['fulltime_duration']['unit'] == 'year':
+          dur = prog['fulltime_duration']['value'] * 12
+        elif prog['fulltime_duration']['unit'] == 'month':
+          dur = prog['fulltime_duration']['value']
+        elif prog['fulltime_duration']['unit'] == 'day':
+          dur = prog['fulltime_duration']['value']/30
+        else:
+          raise AssertionError
+      except:
+        dur = ''
+      
+      try:
+        if prog['tuition_fee']['unit'] == 'year':
+          fee = prog['tuition_fee']['value']
+        elif prog['tuition_fee']['unit'] == 'month':
+          fee = prog['tuition_fee']['value'] * 12
+        elif prog['tuition_fee']['unit'] == 'full':
+          fee = prog['tuition_fee']['value'] / dur # may raise ArithmeticError
+        else:
+          raise AssertionError
+      except:
+        fee = ''
+      rec.append(fee)
+      rec.append(dur)
+      rec.append(prog['summary'].replace('&nbsp;', ' ')) # convert hard spaces
+    except Exception as e:
+      print('{}: {}, {}'.format(repr(e), prog['organisation'], prog['title']))  # show in log
       continue
     records.append(rec)
 
@@ -89,9 +106,9 @@ for discCode, discipline in disciplineDict.items():
   # get total numbers
   testReq = requests.get(url='https://search.prtl.co/2018-07-23/',
                          params={'q': 'di-{}|en-1|lv-master|de-fulltime|tc-USD'.format(discCode)})
-  #totalPages = int(testReq.headers['total']) 
-  totalPages = 100
-  workers = min(totalPages, 30)
+  totalPages = int(testReq.headers['total']) 
+  # totalPages = 100 # for test
+  workers = min(totalPages, 100)
   listenQueue = Queue(workers)
   
   # init first chunk of threads
