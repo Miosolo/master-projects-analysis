@@ -57,7 +57,7 @@ University of Wisconsin Madison,55.0,53.0,56.0,31.0,35.0,28.0,28.0,28.0,45.0,43.
 Brown University,53.0,56.0,57.0,92.0,99.0,90.0,101.0,101.0,51.0,50.0,53.0
 Monash University,60.0,59.0,58.0,68.0,62.0,79.0,78.0,91.0,74.0,80.0,84.0
 Tokyo Institute of Technology,56.0,58.0,58.0,,,,,,,,
-Ã‰cole Polytechnique,59.0,65.0,60.0,,,,,,,,
+脡cole Polytechnique,59.0,65.0,60.0,,,,,,,,
 Shanghai Jiao Tong University,62.0,59.0,60.0,,,,,,,,
 University of Warwick,57.0,54.0,62.0,,,,,,82.0,91.0,79.0
 Ludwig-Maximilians-University (LMU) Munich,66.0,62.0,63.0,40.0,46.0,51.0,57.0,53.0,30.0,34.0,32.0
@@ -125,8 +125,8 @@ King Abdulaziz University,,,,110.0,76.0,,,,,,
 London School of Hygiene and Tropical Medicine,,,,75.0,79.0,,,,,,
 University of Arizona,,,,77.0,81.0,101.0,99.0,101.0,,,
 Wageningen University and Research,,,,88.0,85.0,,,,65.0,64.0,59.0
+Free University Amsterdam,,,,85.0,86.0,,,,,,
 Leiden University,,,,79.0,86.0,93.0,88.0,74.0,77.0,67.0,68.0
-Vrije Universiteit Amsterdam,,,,85.0,86.0,,,,,,
 Humboldt University Berlin,,,,87.0,90.0,,,,57.0,62.0,67.0
 Michigan State University,,,,81.0,90.0,,,,101.0,83.0,93.0
 Ghent University,,,,88.0,92.0,62.0,69.0,61.0,,,
@@ -142,7 +142,7 @@ University of Florida,,,,95.0,107.0,90.0,88.0,86.0,,,
 Sorbonne University,,,,,,39.0,40.0,36.0,121.0,123.0,73.0
 University of Paris Sud,,,,,,46.0,41.0,42.0,,,
 University of Texas Southwestern Medical Center,,,,,,43.0,48.0,48.0,,,
-Ecole normale supÃ©rieure (ENS),,,,,,87.0,69.0,64.0,,,
+Ecole normale sup茅rieure (ENS),,,,,,87.0,69.0,64.0,,,
 Stockholm University,,,,,,81.0,74.0,77.0,,,
 Technion - Israel Institute of Technology,,,,,,69.0,93.0,77.0,,,
 Mayo Medical School,,,,,,86.0,71.0,81.0,,,
@@ -151,15 +151,15 @@ University of California Irvine (UCI),,,,,,58.0,64.0,83.0,98.0,99.0,96.0
 McMaster University,,,,,,83.0,66.0,86.0,113.0,78.0,77.0
 The Hebrew University of Jerusalem,,,,,,87.0,101.0,95.0,,,
 University of Basel,,,,,,101.0,95.0,96.0,98.0,95.0,103.0
-Georg-August-UniversitÃ¤t GÃ¶ttingen,,,,,,101.0,95.0,99.0,,,
+Georg-August-Universit盲t G枚ttingen,,,,,,101.0,95.0,99.0,,,
 The University of Texas M. D. Anderson Cancer Center,,,,,,96.0,101.0,100.0,,,
 Cardiff University,,,,,,101.0,99.0,101.0,,,
 University of Utah,,,,,,100.0,101.0,101.0,,,
 University of Freiburg,,,,,,,,,95.0,82.0,76.0
 RWTH Aachen University,,,,,,,,,78.0,79.0,87.0
-University of TÃ¼bingen,,,,,,,,,89.0,94.0,89.0
+University of T眉bingen,,,,,,,,,89.0,94.0,89.0
 University of Montreal,,,,,,,,,103.0,108.0,90.0
 Dartmouth College,,,,,,,,,82.0,89.0,99.0
-Freie UniversitÃ¤t Berlin,,,,,,,,,75.0,88.0,104.0
+Freie Universit盲t Berlin,,,,,,,,,75.0,88.0,104.0
 University of Bonn,,,,,,,,,113.0,100.0,110.0
 Maastricht University,,,,,,,,,94.0,103.0,128.0

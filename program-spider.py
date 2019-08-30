@@ -22,7 +22,7 @@ def getPrograms(discCode, page, outQ, topOnly = True):
   respRaw = requests.get(url='https://search.prtl.co/2018-07-23/',
                          params={'q': 'di-{}|en-3098|lv-master|de-fulltime|tc-USD'.format(discCode), 'start': page*10})
   if respRaw.status_code != 200:
-    print('network error')
+    print('network error:', respRaw.content.decode())
     outQ.put(None)
     return
 
@@ -106,7 +106,7 @@ for discCode, discipline in disciplineDict.items():
   # get total numbers
   testReq = requests.get(url='https://search.prtl.co/2018-07-23/',
                          params={'q': 'di-{}|en-1|lv-master|de-fulltime|tc-USD'.format(discCode)})
-  totalPages = int(testReq.headers['total']) 
+  totalPages = min(ceil(int(testReq.headers['total'])/10), 1000) # website limit
   # totalPages = 100 # for test
   workers = min(totalPages, 100)
   listenQueue = Queue(workers)
@@ -143,5 +143,4 @@ for discCode, discipline in disciplineDict.items():
 
 #%%
 # export 
-with pd.HDFStore('export/top150.h5', 'w') as f:
-  f['data'] = programDF
+programDF.to_hdf('export/top150.h5', 'program')

@@ -11,7 +11,7 @@ rankingConfig = {
     'SJ': [2016, 2017, 2018],
     'THE': [2017, 2018, 2019]
 }
-programDF = pd.read_hdf('export/top150.h5', key='data')
+programDF = pd.read_hdf('export/top150.h5', key='program')
 
 # %%
 programDFExtended = pd.merge(
