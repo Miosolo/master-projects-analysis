@@ -10,12 +10,11 @@ import random
 # Get the program records
 # %%
 # import csv ranking
-rankingDF = pd.read_csv('export/rankings.csv').set_index('ucode').apply(lambda col: col.astype('Int64')
-                                                                        if col.dtype == 'float64' else col)
+rankingDF = pd.read_hdf('export/top150.h5', key='ranking')
 
 # %%
 def getPrograms(discCode, page, outQ, topOnly = True):
-  """func to get programs online in a thread"""
+  '''func to get programs online in a thread'''
   if page % workers == 0:
     print('disc', discCode, 'page', page)
 
@@ -23,6 +22,7 @@ def getPrograms(discCode, page, outQ, topOnly = True):
   respRaw = requests.get(url='https://search.prtl.co/2018-07-23/',
                          params={'q': 'di-{}|en-3098|lv-master|de-fulltime|tc-USD'.format(discCode), 'start': page*10})
   if respRaw.status_code != 200:
+    print('network error')
     outQ.put(None)
     return
 
@@ -60,7 +60,7 @@ def getPrograms(discCode, page, outQ, topOnly = True):
 
       rec.append(prog['summary'])
     except:
-      # print(prog)  # show in log
+      print('error: {}, {}'.format(prog['organisation'], prog['title']))  # show in log
       continue
     records.append(rec)
 
@@ -80,7 +80,7 @@ disciplineDict = {
     11: 'Natural Sciences & Mathematics',
     13: 'Social Sciences'
 }
-topUnivs = rankingDF.index.tolist() # ucodes
+topUnivs = rankingDF.index.astype('int').tolist() # ucodes
 programDF = pd.DataFrame()
 
 #%%
@@ -89,8 +89,9 @@ for discCode, discipline in disciplineDict.items():
   # get total numbers
   testReq = requests.get(url='https://search.prtl.co/2018-07-23/',
                          params={'q': 'di-{}|en-1|lv-master|de-fulltime|tc-USD'.format(discCode)})
-  totalPages = int(testReq.headers['total']) 
-  workers = min(totalPages, 80)
+  #totalPages = int(testReq.headers['total']) 
+  totalPages = 100
+  workers = min(totalPages, 30)
   listenQueue = Queue(workers)
   
   # init first chunk of threads

@@ -62,4 +62,6 @@ for rankingOrg, recordYears in rankingConfig.items():
 # shrink to Int64
 rankingDF.apply(lambda col: col.astype('Int64')
                 if col.dtype == 'float64' else col)
+with pd.HDFStore('export/top150.h5', 'w') as f:
+  f['ranking'] = rankingDF
 rankingDF.to_csv('export/rankings.csv', index=False)
