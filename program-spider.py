@@ -144,3 +144,10 @@ for discCode, discipline in disciplineDict.items():
 #%%
 # export 
 programDF.to_hdf('export/top150.h5', 'program')
+
+# Program detail spider
+# objectives: overview/ about -> NLP; course outline; language requirements; general/ academic reqirements; 
+# living costs; funding
+#%%
+# get pcodes
+pcodes = programDF['pcode'].to_list()
