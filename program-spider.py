@@ -2,6 +2,7 @@
 from math import ceil
 import threading
 from queue import Queue
+from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 import time
@@ -145,9 +146,33 @@ for discCode, discipline in disciplineDict.items():
 # export 
 programDF.to_hdf('export/top150.h5', 'program')
 
+
 # Program detail spider
 # objectives: overview/ about -> NLP; course outline; language requirements; general/ academic reqirements; 
 # living costs; funding
+
+#%%
+def getProgramDetails(pcode, outQ):
+  '''func to get program details from HTML in a thread'''
+  page = requests.get('https://www.mastersportal.com/studies/{}'.format(pcode))
+  if page.status_code != 200:
+    print('network error for {}'.format(pcode))
+    outQ.put(None)
+    return
+  
+  soup = BeautifulSoup(page.content)
+  # [pcode, about, outline[], language, general, academic]
+  record = [pcode]
+  try: # about
+    record.append(
+      soup.find('section', attrs={'id': 'StudyDescription'}).p.string
+    )
+  except:
+    record.append('')
+
+
+
 #%%
 # get pcodes
 pcodes = programDF['pcode'].to_list()
+workers = 100
