@@ -76,7 +76,7 @@ def getPrograms(discCode, page, outQ, topOnly = True):
         fee = ''
       rec.append(fee)
       rec.append(dur)
-      rec.append(prog['summary'].replace('&nbsp;', ' ')) # convert hard spaces
+      rec.append(prog['summary'])
     except Exception as e:
       print('{}: {}, {}'.format(repr(e), prog['organisation'], prog['title']))  # show in log
       continue
@@ -146,7 +146,6 @@ for discCode, discipline in disciplineDict.items():
 # export 
 programDF.to_hdf('export/top150.h5', 'program')
 
-
 # Program detail spider
 # objectives: overview/ about -> NLP; course outline; language requirements; general/ academic reqirements; 
 # living costs; funding
@@ -161,19 +160,17 @@ def getProgramDetails(pcode, outQ):
     return
   
   soup = BeautifulSoup(page.content)
-  # [pcode, about, outline[], language{}, requirements[], livingCost, funding]
+  # [pcode, about, outline[], language{}, requirements[], livingCost{}]
   record = [pcode]
   try: # about
-    record.append(
-      soup.find('section', attrs={'id': 'StudyDescription'}).p.get_text().replace('&nbsp;', ' ')
-    )
+    record.append(soup.find('section', attrs={'id': 'StudyDescription'}).p.get_text())
   except:
     record.append('')
   
   try: # outline[]
     outline = []
     for li in soup.find('article', attrs={'id': 'StudyContents'}).find_all('li'):
-      outline.append(li.string).replace('&nbsp;', ' ')
+      outline.append(li.get_text())
     record.append(outline)
   except:
     record.append([])
@@ -207,19 +204,61 @@ def getProgramDetails(pcode, outQ):
     reqSec = soup.find('section', attrs={'id': 'AcademicRequirements',
                                          'class': 'AcademicRequirementsInformation'})
     for req in reqSec.find_all('li'):
-      reqs.append(req.string.replace('&nbsp;', ' '))
+      reqs.append(req.get_text())
     record.append(reqs)
   except:
     record.append([])
   
   try: # living costs
-    
+    cost = {}
+    costSec = soup.find('ul', attrs={'class': 'LivingCosts'}).find('div', attrs={'class': 'Amount'})
+    costInfo = costSec.find_all('span')
+    cost['lower'] = float(costInfo[0].string)
+    cost['upper'] = float(costInfo[1].string)
+    cost['currency'] = str(costInfo[2].string)
+    cost['period'] = str(costInfo[3].string[1:]) # omit '/'month)
+    record.append(cost)
+  except:
+    record.append({})
 
-
-  
+  outQ.put(record)
 
 # get program details
 #%%
 # get pcodes
+programDF = pd.read_hdf('export/top150.h5', 'program')
 pcodes = programDF['pcode'].to_list()
-workers = 100
+workers = 50
+listenQueue = Queue(workers)
+
+#%%
+for i in range(workers):
+  threading._start_new_thread(getProgramDetails, (pcodes.pop(), listenQueue))
+  time.sleep(random.random()/2)
+
+# record: [pcode, about, outline[], language{}, requirements[], livingCost{}]
+records = []
+cnt = workers
+while True:
+  try:
+    out = listenQueue.get(timeout=60) # long enough for a thread to finish
+  except: # queue is empty <=> tasks were finished
+    break
+  if out is not None:
+      records.append(out)
+
+  if pcodes: # not empty
+    time.sleep(random.random()/2)
+    threading._start_new_thread(getProgramDetails, (pcodes.pop(), listenQueue))
+    if cnt % workers == 0:
+      print('got {} programs'.format(cnt))
+    cnt += 1
+
+#%%
+# export results
+detailDF = pd.DataFrame(records, columns=['pcode', 'About', 'Course Outline', 'Language Requirements', 'General Requirements', 'Living Costs'])
+detailDF.set_index('pcode', inplace=True)
+detailDF.to_hdf('export/top150.h5', 'details')
+
+
+#%%
