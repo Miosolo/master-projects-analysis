@@ -161,17 +161,64 @@ def getProgramDetails(pcode, outQ):
     return
   
   soup = BeautifulSoup(page.content)
-  # [pcode, about, outline[], language, general, academic]
+  # [pcode, about, outline[], language{}, requirements[], livingCost, funding]
   record = [pcode]
   try: # about
     record.append(
-      soup.find('section', attrs={'id': 'StudyDescription'}).p.string
+      soup.find('section', attrs={'id': 'StudyDescription'}).p.get_text().replace('&nbsp;', ' ')
     )
   except:
     record.append('')
+  
+  try: # outline[]
+    outline = []
+    for li in soup.find('article', attrs={'id': 'StudyContents'}).find_all('li'):
+      outline.append(li.string).replace('&nbsp;', ' ')
+    record.append(outline)
+  except:
+    record.append([])
+  
+  langReq = {}
+  try: # IELTS
+    iSec = soup.find('li', attrs={'class': 'SegmentedControlItem js-SegmentedControlItem',
+                                      'data-segment-id': 'IELTS'})
+    ieltsScore = float(iSec.find('div', attrs={'class': 'Score js-Score'}).string)
+    langReq['IELTS'] = ieltsScore
+  except:
+    pass
+  try: # TOEFL IBT
+    ibtSec = soup.find('li', attrs={'class': 'SegmentedControlItem js-SegmentedControlItem',
+                                      'data-segment-id': 'TOEFL IBT'})
+    ibtScore = float(ibtSec.find('div', attrs={'class': 'Score js-Score'}).string)
+    langReq['TOFEL IBT'] = ibtScore
+  except:
+    pass
+  try: # TOFEL PBT
+    pbtSec = soup.find('li', attrs={'class': 'SegmentedControlItem js-SegmentedControlItem',
+                                      'data-segment-id': 'TOEFL PBT'})
+    pbtScore = float(pbtSec.find('div', attrs={'class': 'Score js-Score'}).string)
+    langReq['TOFEL PBT'] = pbtScore
+  except:
+    pass
+  record.append(langReq)
+  
+  try: # Requirements
+    reqs = []
+    reqSec = soup.find('section', attrs={'id': 'AcademicRequirements',
+                                         'class': 'AcademicRequirementsInformation'})
+    for req in reqSec.find_all('li'):
+      reqs.append(req.string.replace('&nbsp;', ' '))
+    record.append(reqs)
+  except:
+    record.append([])
+  
+  try: # living costs
+    
 
 
+  
 
+# get program details
 #%%
 # get pcodes
 pcodes = programDF['pcode'].to_list()
